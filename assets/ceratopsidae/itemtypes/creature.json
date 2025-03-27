@@ -1,0 +1,74 @@
+﻿{
+  "code": "creature",
+  "class": "ItemCreature",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ 
+	  "ceratopsidae-triceratops-adult-male","ceratopsidae-triceratops-adult-female", "ceratopsidae-triceratops-baby-male", "ceratopsidae-triceratops-baby-female", "ceratopsidae-triceratops-nest-incubating","ceratopsidae-triceratops-nest-mature", "ceratopsidae-triceratops-nest-empty",
+
+	  "ceratopsidae-centrosaurus-adult-male","ceratopsidae-centrosaurus-adult-female", "ceratopsidae-centrosaurus-baby-male", "ceratopsidae-centrosaurus-baby-female","ceratopsidae-centrosaurus-nest-incubating","ceratopsidae-centrosaurus-nest-mature", "ceratopsidae-centrosaurus-nest-empty",
+
+	  "ceratopsidae-nasutoceratops-adult-male","ceratopsidae-nasutoceratops-adult-female", "ceratopsidae-nasutoceratops-baby-male", "ceratopsidae-nasutoceratops-baby-female","ceratopsidae-nasutoceratops-nest-incubating","ceratopsidae-nasutoceratops-nest-mature", "ceratopsidae-nasutoceratops-nest-empty",
+
+	  "ceratopsidae-pachyrhinosaurus-adult-male","ceratopsidae-pachyrhinosaurus-adult-female", "ceratopsidae-pachyrhinosaurus-baby-male", "ceratopsidae-pachyrhinosaurus-baby-female", "ceratopsidae-pachyrhinosaurus-nest-incubating","ceratopsidae-pachyrhinosaurus-nest-mature", "ceratopsidae-pachyrhinosaurus-nest-empty",
+
+	  "ceratopsidae-pentaceratops-adult-male","ceratopsidae-pentaceratops-adult-female", "ceratopsidae-pentaceratops-baby-male", "ceratopsidae-pentaceratops-baby-female", "ceratopsidae-pentaceratops-nest-incubating","ceratopsidae-pentaceratops-nest-mature", "ceratopsidae-pentaceratops-nest-empty",
+
+	  "ceratopsidae-styracosaurus-adult-male","ceratopsidae-styracosaurus-adult-female", "ceratopsidae-styracosaurus-baby-male", "ceratopsidae-styracosaurus-baby-female", "ceratopsidae-styracosaurus-nest-incubating","ceratopsidae-styracosaurus-nest-mature", "ceratopsidae-styracosaurus-nest-empty",
+
+	  ]
+    }
+  ],
+  "shapeByType": {
+	 "*-triceratops-adult-*":{"base": "entity/land/ceratopsidae/triceratops/adult"},"*-triceratops-baby-*":{"base": "entity/land/ceratopsidae/triceratops/baby"},
+	 "*-centrosaurus-adult-*":{"base": "entity/land/ceratopsidae/centrosaurus/adult"},"*-centrosaurus-baby-*":{"base": "entity/land/ceratopsidae/centrosaurus/baby"},
+	 "*-nasutoceratops-adult-*":{"base": "entity/land/ceratopsidae/nasutoceratops/adult"},"*-nasutoceratops-baby-*":{"base": "entity/land/ceratopsidae/nasutoceratops/baby"},
+	 "*-pachyrhinosaurus-adult-*":{"base": "entity/land/ceratopsidae/pachyrhinosaurus/adult"},"*-pachyrhinosaurus-baby-*":{"base": "entity/land/ceratopsidae/pachyrhinosaurus/baby"},
+	 "*-pentaceratops-adult-*":{"base": "entity/land/ceratopsidae/pentaceratops/adult"},"*-pentaceratops-baby-*":{"base": "entity/land/ceratopsidae/pentaceratops/baby"},
+	 "*-styracosaurus-adult-*":{"base": "entity/land/ceratopsidae/styracosaurus/adult"},"*-styracosaurus-baby-*":{"base": "entity/land/ceratopsidae/styracosaurus/baby"},
+	 "*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
+  },
+  "textureByType": {
+	 "*-triceratops-adult-*":{"base": "entity/triceratops-adult"},"*-triceratops-baby-*":{"base": "entity/triceratops-adult"},
+	 "*-centrosaurus-adult-*":{"base": "entity/centrosaurus-adult"},"*-centrosaurus-baby-*":{"base": "entity/centrosaurus-adult"},
+	 "*-nasutoceratops-adult-*":{"base": "entity/nasutoceratops-adult"},"*-nasutoceratops-baby-*":{"base": "entity/nasutoceratops-adult"},
+	 "*-pachyrhinosaurus-adult-*":{"base": "entity/pachyrhinosaurus-adult"},"*-pachyrhinosaurus-baby-*":{"base": "entity/pachyrhinosaurus-adult"},
+	 "*-pentaceratops-adult-*":{"base": "entity/pentaceratops-adult"},"*-pentaceratops-baby-*":{"base": "entity/pentaceratops-adult"},
+	 "*-styracosaurus-adult-*":{"base": "entity/styracosaurus-adult"},"*-styracosaurus-baby-*":{"base": "entity/styracosaurus-adult"},
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"creature-ceratopsidae-*": {
+			"rotate": true,
+			"translation": { "x": -10, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
+		},
+		"creature-ceratopsidae-*-baby-*": {
+			"rotate": true,
+			"translation": { "x": -10, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.5
+		}
+	},
+
+	"tpHandTransformByType": {
+		"creature-ceratopsidae-*": {
+			"translation": { "x": -2, "y": -2, "z": -2 },
+			"rotation": { "x": -180, "y": 0, "z": -156 },
+			"scale": 0.15
+		}		
+	},
+
+	"fpHandTransformByType": {
+		"creature-ceratopsidae-*": {
+			"translation": { "x": -5, "y": -5, "z": 0 },
+			"rotation": { "x": -8, "y": -63, "z": -7 }
+		}
+	}
+}

@@ -1,0 +1,218 @@
+{
+  "game:item-antler-triceratops-01": "Triceratops Horn",
+  "item-ceratopswearable-saddle": "Saddle made for ceratopsian",
+  "item-ceratopswearable-bridle1": "Bridle made of ceratopsian",
+  "itemdesc-ceratopswearable-bridle1": "Useful for precise, short distance travel",
+  "item-ceratopswearable-bridle2": "Bridle made of ceratopsian",
+  "itemdesc-ceratopswearable-bridle2": "Useful for long distance travel",
+  "item-handbooktitle-ceratopswearable-bridle2": "How to Use",
+  "item-handbooktext-ceratopswearable-bridle2": "When your mount is wearing a curb bit, you need only press forward once, rather than hold it down, to move.",
+  "creature-tyrannosauridae-*-selectionbox-HeadAP": "Bridle slot",
+  "creature-tyrannosauridae-*-selectionbox-MidAP": "Saddle",
+
+  "item-creature-ceratopsidae-triceratops-adult-male": "Triceratops (Male)",
+  "item-creature-ceratopsidae-triceratops-adult-female": "Triceratops (Female)",
+  "item-creature-ceratopsidae-triceratops-baby-male": "Triceratops (Juvenile Male)",
+  "item-creature-ceratopsidae-triceratops-baby-female": "Triceratops (Juvenile Female)",
+
+  "item-dead-creature-ceratopsidae-triceratops-adult-male": "Dead Triceratops (Male)",
+  "item-dead-creature-ceratopsidae-triceratops-adult-female": "Dead Triceratops (Female)",
+  "item-dead-creature-ceratopsidae-triceratops-baby-male": "Dead Triceratops (Juvenile Male)",
+  "item-dead-creature-ceratopsidae-triceratops-baby-female": "Dead Triceratops (Juvenile Female)",
+  
+  "item-creature-ceratopsidae-triceratops-nest-incubating": "Triceratops Nest (Incubating)",
+  "item-creature-ceratopsidae-triceratops-nest-mature": "Triceratops Nest (Matured)",
+  "item-creature-ceratopsidae-triceratops-nest-empty": "Triceratops Nest (Empty)",
+  "item-creature-ceratopsidae-triceratops-egg-raw": "Triceratops Egg (Raw)",
+
+  
+  "recipeingredient-item-creature-ceratopsidae-triceratops-egg-raw": "triceratops egg",
+  "recipeingredient-item-creature-ceratopsidae-triceratops-egg-raw-insturmentalcase": "triceratops eggs",
+  
+  "game:creaturegroup-ceratopsidae": "Ceratopsians",
+
+  "game:prefixandcreature-ceratopsidae-triceratops-adult-male": "a triceratops",
+  "game:prefixandcreature-ceratopsidae-triceratops-adult-female": "a triceratops",
+  "game:prefixandcreature-ceratopsidae-triceratops-baby-male": "a juvenile triceratops",
+  "game:prefixandcreature-ceratopsidae-triceratops-baby-female": "a juvenile triceratops",
+  
+  "game:prefixandcreature-ceratopsidae-triceratops-nest-incubating": "a triceratops nest",
+  "game:prefixandcreature-ceratopsidae-triceratops-nest-mature": "a triceratops nest",
+  "game:prefixandcreature-ceratopsidae-triceratops-nest-empty": "an empty triceratops nest",
+  "game:prefixandcreature-ceratopsidae-triceratops-egg": "an triceratops egg",
+
+
+
+
+
+
+
+
+
+  "item-creature-ceratopsidae-pentaceratops-adult-male": "Pentaceratops (Male)",
+  "item-creature-ceratopsidae-pentaceratops-adult-female": "Pentaceratops (Female)",
+  "item-creature-ceratopsidae-pentaceratops-baby-male": "Pentaceratops (Juvenile Male)",
+  "item-creature-ceratopsidae-pentaceratops-baby-female": "Pentaceratops (Juvenile Female)",
+
+  "item-dead-creature-ceratopsidae-pentaceratops-adult-male": "Dead Pentaceratops (Male)",
+  "item-dead-creature-ceratopsidae-pentaceratops-adult-female": "Dead Pentaceratops (Female)",
+  "item-dead-creature-ceratopsidae-pentaceratops-baby-male": "Dead Pentaceratops (Juvenile Male)",
+  "item-dead-creature-ceratopsidae-pentaceratops-baby-female": "Dead Pentaceratops (Juvenile Female)",
+
+  "item-creature-ceratopsidae-pentaceratops-nest-incubating": "Pentaceratops Nest (Incubating)",
+  "item-creature-ceratopsidae-pentaceratops-nest-mature": "Pentaceratops Nest (Matured)",
+  "item-creature-ceratopsidae-pentaceratops-nest-empty": "Pentaceratops Nest (Empty)",
+  "item-creature-ceratopsidae-pentaceratops-egg-raw": "Pentaceratops Egg (Raw)",
+
+  "recipeingredient-item-creature-ceratopsidae-pentaceratops-egg-raw": "pentaceratops egg",
+  "recipeingredient-item-creature-ceratopsidae-pentaceratops-egg-raw-insturmentalcase": "pentaceratops eggs",
+
+  "game:prefixandcreature-ceratopsidae-pentaceratops-adult-male": "a pentaceratops",
+  "game:prefixandcreature-ceratopsidae-pentaceratops-adult-female": "a pentaceratops",
+  "game:prefixandcreature-ceratopsidae-pentaceratops-baby-male": "a juvenile pentaceratops",
+  "game:prefixandcreature-ceratopsidae-pentaceratops-baby-female": "a juvenile pentaceratops",
+
+  "game:prefixandcreature-ceratopsidae-pentaceratops-nest-incubating": "a pentaceratops nest",
+  "game:prefixandcreature-ceratopsidae-pentaceratops-nest-mature": "a pentaceratops nest",
+  "game:prefixandcreature-ceratopsidae-pentaceratops-nest-empty": "an empty pentaceratops nest",
+  "game:prefixandcreature-ceratopsidae-pentaceratops-egg": "an pentaceratops egg",
+
+  "game:item-antler-pentaceratops-01": "Pentaceratops Horn",
+
+
+
+
+
+
+  "item-creature-ceratopsidae-pachyrhinosaurus-adult-male": "Pachyrhinosaurus (Male)",
+  "item-creature-ceratopsidae-pachyrhinosaurus-adult-female": "Pachyrhinosaurus (Female)",
+  "item-creature-ceratopsidae-pachyrhinosaurus-baby-male": "Pachyrhinosaurus (Juvenile Male)",
+  "item-creature-ceratopsidae-pachyrhinosaurus-baby-female": "Pachyrhinosaurus (Juvenile Female)",
+
+  "item-dead-creature-ceratopsidae-pachyrhinosaurus-adult-male": "Dead Pachyrhinosaurus (Male)",
+  "item-dead-creature-ceratopsidae-pachyrhinosaurus-adult-female": "Dead Pachyrhinosaurus (Female)",
+  "item-dead-creature-ceratopsidae-pachyrhinosaurus-baby-male": "Dead Pachyrhinosaurus (Juvenile Male)",
+  "item-dead-creature-ceratopsidae-pachyrhinosaurus-baby-female": "Dead Pachyrhinosaurus (Juvenile Female)",
+
+  "item-creature-ceratopsidae-pachyrhinosaurus-nest-incubating": "Pachyrhinosaurus Nest (Incubating)",
+  "item-creature-ceratopsidae-pachyrhinosaurus-nest-mature": "Pachyrhinosaurus Nest (Matured)",
+  "item-creature-ceratopsidae-pachyrhinosaurus-nest-empty": "Pachyrhinosaurus Nest (Empty)",
+  "item-creature-ceratopsidae-pachyrhinosaurus-egg-raw": "Pachyrhinosaurus Egg (Raw)",
+
+  "recipeingredient-item-creature-ceratopsidae-pachyrhinosaurus-egg-raw": "pachyrhinosaurus egg",
+  "recipeingredient-item-creature-ceratopsidae-pachyrhinosaurus-egg-raw-insturmentalcase": "pachyrhinosaurus eggs",
+
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-adult-male": "a pachyrhinosaurus",
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-adult-female": "a pachyrhinosaurus",
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-baby-male": "a juvenile pachyrhinosaurus",
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-baby-female": "a juvenile pachyrhinosaurus",
+
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-nest-incubating": "a pachyrhinosaurus nest",
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-nest-mature": "a pachyrhinosaurus nest",
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-nest-empty": "an empty pachyrhinosaurus nest",
+  "game:prefixandcreature-ceratopsidae-pachyrhinosaurus-egg": "an pachyrhinosaurus egg",
+
+  "game:item-antler-pachyrhinosaurus-01": "Pachyrhinosaurus Horn",
+
+
+
+
+
+
+  "item-creature-ceratopsidae-styracosaurus-adult-male": "Styracosaurus (Male)",
+  "item-creature-ceratopsidae-styracosaurus-adult-female": "Styracosaurus (Female)",
+  "item-creature-ceratopsidae-styracosaurus-baby-male": "Styracosaurus (Juvenile Male)",
+  "item-creature-ceratopsidae-styracosaurus-baby-female": "Styracosaurus (Juvenile Female)",
+
+  "item-dead-creature-ceratopsidae-styracosaurus-adult-male": "Dead Styracosaurus (Male)",
+  "item-dead-creature-ceratopsidae-styracosaurus-adult-female": "Dead Styracosaurus (Female)",
+  "item-dead-creature-ceratopsidae-styracosaurus-baby-male": "Dead Styracosaurus (Juvenile Male)",
+  "item-dead-creature-ceratopsidae-styracosaurus-baby-female": "Dead Styracosaurus (Juvenile Female)",
+
+  "item-creature-ceratopsidae-styracosaurus-nest-incubating": "Styracosaurus Nest (Incubating)",
+  "item-creature-ceratopsidae-styracosaurus-nest-mature": "Styracosaurus Nest (Matured)",
+  "item-creature-ceratopsidae-styracosaurus-nest-empty": "Styracosaurus Nest (Empty)",
+  "item-creature-ceratopsidae-styracosaurus-egg-raw": "Styracosaurus Egg (Raw)",
+
+  "recipeingredient-item-creature-ceratopsidae-styracosaurus-egg-raw": "styracosaurus egg",
+  "recipeingredient-item-creature-ceratopsidae-styracosaurus-egg-raw-insturmentalcase": "styracosaurus eggs",
+
+  "game:prefixandcreature-ceratopsidae-styracosaurus-adult-male": "a styracosaurus",
+  "game:prefixandcreature-ceratopsidae-styracosaurus-adult-female": "a styracosaurus",
+  "game:prefixandcreature-ceratopsidae-styracosaurus-baby-male": "a juvenile styracosaurus",
+  "game:prefixandcreature-ceratopsidae-styracosaurus-baby-female": "a juvenile styracosaurus",
+
+  "game:prefixandcreature-ceratopsidae-styracosaurus-nest-incubating": "a styracosaurus nest",
+  "game:prefixandcreature-ceratopsidae-styracosaurus-nest-mature": "a styracosaurus nest",
+  "game:prefixandcreature-ceratopsidae-styracosaurus-nest-empty": "an empty styracosaurus nest",
+  "game:prefixandcreature-ceratopsidae-styracosaurus-egg": "an styracosaurus egg",
+
+  "game:item-antler-styracosaurus-01": "Styracosaurus Horn",
+
+
+  "item-creature-ceratopsidae-centrosaurus-adult-male": "Centrosaurus (Male)",
+  "item-creature-ceratopsidae-centrosaurus-adult-female": "Centrosaurus (Female)",
+  "item-creature-ceratopsidae-centrosaurus-baby-male": "Centrosaurus (Juvenile Male)",
+  "item-creature-ceratopsidae-centrosaurus-baby-female": "Centrosaurus (Juvenile Female)",
+
+  "item-dead-creature-ceratopsidae-centrosaurus-adult-male": "Dead Centrosaurus (Male)",
+  "item-dead-creature-ceratopsidae-centrosaurus-adult-female": "Dead Centrosaurus (Female)",
+  "item-dead-creature-ceratopsidae-centrosaurus-baby-male": "Dead Centrosaurus (Juvenile Male)",
+  "item-dead-creature-ceratopsidae-centrosaurus-baby-female": "Dead Centrosaurus (Juvenile Female)",
+
+
+  "item-creature-ceratopsidae-centrosaurus-nest-incubating": "Centrosaurus Nest (Incubating)",
+  "item-creature-ceratopsidae-centrosaurus-nest-mature": "Centrosaurus Nest (Matured)",
+  "item-creature-ceratopsidae-centrosaurus-nest-empty": "Centrosaurus Nest (Empty)",
+  "item-creature-ceratopsidae-centrosaurus-egg-raw": "Centrosaurus Egg (Raw)",
+
+  "recipeingredient-item-creature-ceratopsidae-centrosaurus-egg-raw": "centrosaurus egg",
+  "recipeingredient-item-creature-ceratopsidae-centrosaurus-egg-raw-insturmentalcase": "centrosaurus eggs",
+
+  "game:prefixandcreature-ceratopsidae-centrosaurus-adult-male": "a centrosaurus",
+  "game:prefixandcreature-ceratopsidae-centrosaurus-adult-female": "a centrosaurus",
+  "game:prefixandcreature-ceratopsidae-centrosaurus-baby-male": "a juvenile centrosaurus",
+  "game:prefixandcreature-ceratopsidae-centrosaurus-baby-female": "a juvenile centrosaurus",
+
+  "game:prefixandcreature-ceratopsidae-centrosaurus-nest-incubating": "a centrosaurus nest",
+  "game:prefixandcreature-ceratopsidae-centrosaurus-nest-mature": "a centrosaurus nest",
+  "game:prefixandcreature-ceratopsidae-centrosaurus-nest-empty": "an empty centrosaurus nest",
+  "game:prefixandcreature-ceratopsidae-centrosaurus-egg": "an centrosaurus egg",
+
+  "game:item-antler-centrosaurus-01": "Centrosaurus Horn",
+
+
+
+
+
+
+  "item-creature-ceratopsidae-nasutoceratops-adult-male": "Nasutoceratops (Male)",
+  "item-creature-ceratopsidae-nasutoceratops-adult-female": "Nasutoceratops (Female)",
+  "item-creature-ceratopsidae-nasutoceratops-baby-male": "Nasutoceratops (Juvenile Male)",
+  "item-creature-ceratopsidae-nasutoceratops-baby-female": "Nasutoceratops (Juvenile Female)",
+
+  "item-dead-creature-ceratopsidae-nasutoceratops-adult-male": "Dead Nasutoceratops (Male)",
+  "item-dead-creature-ceratopsidae-nasutoceratops-adult-female": "Dead Nasutoceratops (Female)",
+  "item-dead-creature-ceratopsidae-nasutoceratops-baby-male": "Dead Nasutoceratops (Juvenile Male)",
+  "item-dead-creature-ceratopsidae-nasutoceratops-baby-female": "Dead Nasutoceratops (Juvenile Female)",
+
+  "item-creature-ceratopsidae-nasutoceratops-nest-incubating": "Nasutoceratops Nest (Incubating)",
+  "item-creature-ceratopsidae-nasutoceratops-nest-mature": "Nasutoceratops Nest (Matured)",
+  "item-creature-ceratopsidae-nasutoceratops-nest-empty": "Nasutoceratops Nest (Empty)",
+  "item-creature-ceratopsidae-nasutoceratops-egg-raw": "Nasutoceratops Egg (Raw)",
+
+  "recipeingredient-item-creature-ceratopsidae-nasutoceratops-egg-raw": "nasutoceratops egg",
+  "recipeingredient-item-creature-ceratopsidae-nasutoceratops-egg-raw-insturmentalcase": "nasutoceratops eggs",
+
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-adult-male": "a nasutoceratops",
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-adult-female": "a nasutoceratops",
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-baby-male": "a juvenile nasutoceratops",
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-baby-female": "a juvenile nasutoceratops",
+
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-nest-incubating": "a nasutoceratops nest",
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-nest-mature": "a nasutoceratops nest",
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-nest-empty": "an empty nasutoceratops nest",
+  "game:prefixandcreature-ceratopsidae-nasutoceratops-egg": "an nasutoceratops egg",
+
+  "game:item-antler-nasutoceratops-01": "Nasutoceratops Horn",
+}

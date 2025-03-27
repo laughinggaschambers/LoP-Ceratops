@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"backDropShape": "entity/land/ceratopsidae/pachyrhinosaurus/adult",
+		"collapsedPaths": ",Root/Horn5,Root/Cube2,Root/Cube8",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"ceratop-main": "entity/pachyrhinosaurus-adult"
+	},
+	"elements": [
+		{
+			"name": "Cube10",
+			"stepParentName": "Head2",
+			"from": [ 37.0, -17.0, 1.0 ],
+			"to": [ 37.0, -17.0, 1.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 37.0, -17.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#ceratop-main", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+				"east": { "texture": "#ceratop-main", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"south": { "texture": "#ceratop-main", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+				"west": { "texture": "#ceratop-main", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+				"up": { "texture": "#ceratop-main", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#ceratop-main", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ -34.1711, 40.9433, -3.16 ],
+					"to": [ -26.1071, 43.9753, 4.904 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -25.7711, 40.9433, -3.16 ],
+					"rotationX": 3.0786,
+					"rotationY": -7.3875,
+					"rotationZ": 75.6988,
+					"faces": {
+						"north": { "texture": "#ceratop-main", "uv": [ 8.5, 0.0, 11.5, 8.0 ], "rotation": 90 },
+						"east": { "texture": "#ceratop-main", "uv": [ 10.0, 0.0, 13.0, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#ceratop-main", "uv": [ 8.5, 0.0, 11.5, 8.0 ], "rotation": 90 },
+						"west": { "texture": "#ceratop-main", "uv": [ 0.0, 0.0, 8.0, 3.0 ] },
+						"up": { "texture": "#ceratop-main", "uv": [ 8.0, 0.0, 16.0, 8.0 ], "rotation": 90 },
+						"down": { "texture": "#ceratop-main", "uv": [ 8.0, 0.0, 16.0, 8.0 ] }
+					}
+				},
+				{
+					"name": "Cube10",
+					"from": [ -34.1711, 40.9433, 10.84 ],
+					"to": [ -26.1071, 43.9753, 18.904 ],
+					"autoUnwrap": false,
+					"uv": [ 32.0, 0.0 ],
+					"rotationOrigin": [ -25.7711, 40.9433, 18.84 ],
+					"rotationX": -3.0786,
+					"rotationY": 7.3875,
+					"rotationZ": 75.6988,
+					"faces": {
+						"north": { "texture": "#ceratop-main", "uv": [ 0.0, 0.0, 8.0, 3.0 ], "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"east": { "texture": "#ceratop-main", "uv": [ 8.5, 0.0, 11.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"south": { "texture": "#ceratop-main", "uv": [ 8.5, 0.0, 11.5, 8.0 ], "rotation": 90 },
+						"west": { "texture": "#ceratop-main", "uv": [ 0.0, 0.0, 8.0, 3.0 ] },
+						"up": { "texture": "#ceratop-main", "uv": [ 8.0, 0.0, 16.0, 8.0 ] },
+						"down": { "texture": "#ceratop-main", "uv": [ 8.0, 0.0, 16.0, 8.0 ] }
+					}
+				}
+			]
+		}
+	]}

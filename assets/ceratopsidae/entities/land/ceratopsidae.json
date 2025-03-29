@@ -406,8 +406,8 @@
 				},
 				"spawnEntityCodesByType": {
 					"*": [ { "code":"ceratopsidae:ceratopsidae-{type}-egg-raw"}]},
-				"requiresNearbyEntityCodeByType": {
-					"*-adult-female": "ceratopsidae:ceratopsidae-{type}-adult-male"},
+				"requiresNearbyEntityCodeByType": {"*": "ceratopsidae:ceratopsidae-{type}-adult-male"},
+				"eatAnyway": true,
 				"requiresNearbyEntityRange": 20,
 				"spawnQuantityMin": 6,
 				"spawnQuantityMaxByType": {"*": 12},

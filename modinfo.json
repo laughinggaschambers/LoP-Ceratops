@@ -4,7 +4,7 @@
   "name": "Legacy of the Phanerozoic: Horned Crown",
   "author": "laughinggas",
   "description": "Adds the family of ceratopsian dinosaurs to Vintage Story",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "dependency": {
     "game": "1.5.3"
   }

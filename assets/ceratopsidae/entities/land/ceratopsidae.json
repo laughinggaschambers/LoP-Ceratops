@@ -833,65 +833,65 @@
     "spawnconditionsByType": {
 			"*-triceratops-adult-*": {
 				"climate": {
-					"minTemp": 0,
-					"maxTemp": 35,
-					"minRain": 0.15,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
+					"minTemp": 5,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
 					"minY": 0.9,
-					"maxY": 1.7
+					"maxY": 1.6
 				},
 			},
 			"*-pentaceratops-adult-*": {
 				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.10,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
+					"minTemp": 5,
+					"maxTemp": 28,
+					"minRain": 0.4,
+					"maxRain": 0.9,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.7
 				},
 			},
 			"*-styracosaurus-adult-*": {
 				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.2,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
+					"minTemp": 10,
+					"maxTemp": 35,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
 					"minY": 0.9,
-					"maxY": 1.7
+					"maxY": 1.6
 				},
 			},
 			"*-centrosaurus-adult-*": {
 				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.2,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
+					"minTemp": 10,
+					"maxTemp": 35,
+					"minRain": 0.4,
+					"maxRain": 0.9,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
 					"minY": 0.9,
-					"maxY": 1.7
+					"maxY": 1.6
 				},
 			},
 			"*-nasutoceratops-adult-*": {
 				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.15,
+					"minTemp": 15,
+					"maxTemp": 38,
+					"minRain": 0.4,
 					"maxRain": 1.0,
-					"minForestOrShrubs": 0.0,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.7
 				},
@@ -899,13 +899,13 @@
 			"*-pachyrhinosaurus-adult-*": {
 				"climate": {
 					"minTemp": -10,
-					"maxTemp": 25,
-					"minRain": 0.1,
+					"maxTemp": 20,
+					"minRain": 0.5,
 					"maxRain": 1.0,
-					"minForestOrShrubs": 0.0,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
+					"minY": 1,
 					"maxY": 1.7
 				},
 			},

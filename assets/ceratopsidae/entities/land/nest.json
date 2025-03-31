@@ -104,7 +104,7 @@
 					"*-empty": false,
 					"*": true
 				},
-				"hoursToGrowByType": {"*-incubating": 140,"*-mature": 3},
+				"hoursToGrowByType": {"*-incubating": 140,"*-mature": 2},
 				"adultEntityCodesByType": {
 					"*-incubating": ["ceratopsidae:ceratopsidae-{type}-nest-mature"],
 					"*-mature": ["ceratopsidae:ceratopsidae-{type}-nest-empty"]
@@ -123,7 +123,7 @@
 							"ceratopsidae:ceratopsidae-{type}-baby-female",
 							"ceratopsidae:ceratopsidae-{type}-baby-male",
 						],
-						"spawnMaxQuantity": 15,
+						"spawnMaxQuantity": 5,
 						"spawnIntervalMsMin": 1000,
 						"spawnIntervalMsMax": 4000,
 						"spawnRange": 0.5,
@@ -172,6 +172,7 @@
 				"TriesPerChunk": { "avg": 0.0, "var": 0 },
 				"mindistancetoplayer": 50,
 				"maxLightLevel": 7,
+				"spawnCapPlayerScaling": 0.0,
 				"lightLevelType": "onlyBlockLight",
 				"groupSizeByType": {
 					"*": { "dist": "uniform", "avg": 2, "var": 0 }

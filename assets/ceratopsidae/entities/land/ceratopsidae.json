@@ -432,12 +432,11 @@
 					{"code": "aggressiveondamage","duration": 60,
 						"chanceByType": {
 							"*-adult-*": 1,
-							"*-baby-*": 0.0
+							"*-baby-*": 0.5
 						},
 						"slot": 2,"priority": 3,"accumType": "noaccum"},
-					{"code": "fleeondamage","duration": 60,"slot": 2,"chanceByType": {"*-adult-*": 1,"*-baby-*": 1},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.75},
-					{"code": "fleeondamage","duration": 30,"slot": 2,"chanceByType": {"*-adult-*": 0.0,"*-baby-*": 1},"priority": 0.75,"accumType": "max","whenHealthRelBelow": 1},
-					{"code": "alarmherdondamage","chance": 1,"slot": 1,"priority": 1.5,"accumType": "max"},
+					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.5},
+					{"code": "fleeondamage","duration": 30,"slot": 1,"chanceByType": {"*-adult-*": 0,"*-baby-*": 1},"priority": 0.75,"accumType": "max","whenHealthRelBelow": 0.6},
 					{"code": "saturated","duration": 1200,"chance": 1,"slot": 0,"priority": 1,"accumType": "sum"},
 					{ "code": "aggressivearoundentities", "duration": 60, "chanceByType": {"*-baby-*": 0.0,"*-adult-*": 1.0}, "slot": 2, "priority": 5, "entityCodes": ["ceratopsidae:ceratopsidae-{type}-baby-male","ceratopsidae:ceratopsidae-{type}-baby-female"], "maxGeneration": 2 }
 				]
@@ -465,7 +464,7 @@
 
 						},
 						"damageType": "SlashingAttack",
-						"knockbackStrengthByType": {"*":0.0,"*-adult-*":1},
+						"knockbackStrengthByType": {"*-baby-*":0.0,"*-adult-*":2},
 						"damageTierByType": {"*-baby-*":1,"*":3},
 						"attackAngleRangeDeg": 120,
 						"mincooldown": 1250,
@@ -587,7 +586,7 @@
 							"*-baby-*": 8,
 							"*": 6
 						},
-						"seekingRange": 40,
+						"seekingRange": 50,
 						"whenInEmotionState": "fleeondamage"
 					},
                     {
@@ -654,7 +653,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22.5,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12.5,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*"  ],
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male","hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*"  ],
 						"stopRange": 10,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,

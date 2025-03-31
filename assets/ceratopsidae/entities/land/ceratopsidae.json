@@ -511,12 +511,12 @@
 						"maxcooldown": 6500,
 						"seekingRange": 28,
 						"movespeedByType": {
-							"*-adult-*": 0.075,
+							"*-adult-*": 0.045,
 							"*-baby-*": 0.0385,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 5,
-							"*": 5.0
+							"*": 4.5
 						},
 						"soundByType": {
 							"*-adult-*":"creature/roar"},
@@ -536,12 +536,12 @@
 						"maxcooldown": 6500,
 						"seekingRange": 18,
 						"movespeedByType": {
-							"*-adult-*": 0.075,
+							"*-adult-*": 0.045,
 							"*-baby-*": 0.0385,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 5,
-							"*": 5.0
+							"*": 4.5
 						},
 						"soundByType": {
 							"*-adult-*":"creature/roar"},
@@ -562,11 +562,11 @@
 						},
 						"priority": 1.8,
 						"movespeedByType": {
-							"*-adult-*": 0.028,"*-baby-*": 0.019,
+							"*-adult-*": 0.040,"*-baby-*": 0.019,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 4,
-							"*": 3
+							"*": 4.5
 						},
 						"whenNotInEmotionState": "fleeondamage",
 						"seekingRange": 20
@@ -583,8 +583,8 @@
 							"*-adult-*": 0.056,"*-baby-*": 0.038,
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 8,
-							"*": 6
+							"*-baby-*": 5,
+							"*": 5
 						},
 						"seekingRange": 50,
 						"whenInEmotionState": "fleeondamage"
@@ -594,14 +594,13 @@
 						"animation": "Swim",
 						"priority": 1.4,
 						"movespeedByType": {
-							"*-adult-*": 0.045,
-							"*-baby-*": 0.0225,
+							"*-adult-*": 0.018,"*-baby-*": 0.010,
 						},
 						"animationSpeed": 1.5
 					},
                     {
 						"code": "stayclosetoentity",
-						"animation": "Trot",
+						"animation": "Gallop",
 						"enabledByType": {
 							"*": true
 						},
@@ -610,8 +609,8 @@
 							"*-adult-*": "ceratopsidae-{type}-baby-{gender}",
 							"*-baby-*": "ceratopsidae-{type}-adult-female"},
 						"movespeedByType": {
-							"*-adult-*": 0.075,
-							"*-baby-*": 0.0385,
+							"*-adult-*": 0.056,
+							"*-baby-*": 0.038,
 							},
 						"maxDistanceByType": {"*-adult-*": 24,"*-baby-*": 6},
 						"searchRange": 45,

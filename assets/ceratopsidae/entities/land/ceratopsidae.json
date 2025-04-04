@@ -29,7 +29,7 @@
 		"minGenerationToAllowHealing": 0,
 		"creatureDiet": {
 			"foodCategories": ["Fruit", "Vegetable", "Grain"],
-			"foodTags": ["fruitmash","nibblecrops", "sweetBerryBush" ]
+			"foodTags": ["fruitmash","nibblecrops", "sweetBerryBush", "grass"]
 			},
 		},
 	"behaviorConfigs": {

@@ -1,0 +1,72 @@
+[
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ceratopsidae:entities/land/ceratopsidae",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail 1", "Tail 2","Tail 3",],
+        "Head": ["Head", "Jaw","Jaw Lower",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": [],
+        "Resistant": []
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ceratopsidae:entities/land/ceratopsidae",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail 1", "Tail 2","Tail 3",],
+        "Head": ["Head", "Jaw","Jaw Lower",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": [],
+        "Resistant": []
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ceratopsidae:entities/land/ceratopsidae",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {"BluntAttack": 6, "SlashingAttack": 4, "PiercingAttack": 0}
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ceratopsidae:entities/land/ceratopsidae",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {"BluntAttack": 6, "SlashingAttack": 4, "PiercingAttack": 0}
+      }
+    }
+  }
+]

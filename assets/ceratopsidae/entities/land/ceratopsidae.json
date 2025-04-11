@@ -451,7 +451,7 @@
 						"enabledByType": {
 							"*": true},
 						"entityCodesByType": {
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*",]},
+							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]},
 						"priority": 1.9,
 						"slot": 1,
 						"damageByType": {
@@ -481,7 +481,7 @@
 						"code": "seekentity",
 						"animation": "Charge",
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*"],
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
 						},
 						"priority": 1.82,
 						"mincooldown": 600,
@@ -504,7 +504,7 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*"]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]
 						},
 						"priority": 1.84,
 						"mincooldown": 6000,
@@ -529,7 +529,7 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*"]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]
 						},
 						"priority": 1.83,
 						"mincooldown": 6000,
@@ -558,6 +558,9 @@
 
 							"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
+							"*-dromaeosauridae-utahraptor-adult-*","*-dromaeosauridae-dakotaraptor-adult-*","*-dromaeosauridae-achillobator-adult-*","*-dromaeosauridae-austroraptor-adult-*","*-dromaeosauridae-deinonychus-adult-*","*-dromaeosauridae-dromaeosaurus-adult-*","*-dromaeosauridae-adasaurus-adult-*","*-dromaeosauridae-velociraptor-adult-*","*-dromaeosauridae-saurornitholestes-adult-*","*-dromaeosauridae-atrociraptor-adult-*","*-dromaeosauridae-pyroraptor-adult-*","*-dromaeosauridae-buitreraptor-adult-*","*-dromaeosauridae-microraptor-adult-*","*-dromaeosauridae-rahonavis-adult-*",
+
+
 							]
 						},
 						"priority": 1.8,
@@ -575,8 +578,8 @@
 						"code": "fleeentity",
 						"animation": "Gallop",
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*",],
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*"]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]
 						},
 						"priority": 2.1,
 						"movespeedByType": {
@@ -631,7 +634,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*"  ],
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*" ,"dromaeosauridae-*",],
 						"stopRange": 20,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -652,7 +655,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22.5,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12.5,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male","hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*"  ],
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male","hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
 						"stopRange": 10,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -842,6 +845,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 			"*-pentaceratops-adult-*": {
 				"climate": {
@@ -855,6 +861,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 			"*-styracosaurus-adult-*": {
 				"climate": {
@@ -868,6 +877,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 			"*-centrosaurus-adult-*": {
 				"climate": {
@@ -881,6 +893,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 			"*-nasutoceratops-adult-*": {
 				"climate": {
@@ -894,6 +909,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 			"*-pachyrhinosaurus-adult-*": {
 				"climate": {
@@ -907,6 +925,9 @@
 					"minY": 1,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 		}
     },

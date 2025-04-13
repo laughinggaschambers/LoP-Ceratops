@@ -86,7 +86,7 @@
 	},
 	tpHandTransformByType: {
 		"*-saddle": {
-			translation: { x: -1, y: -1.50, z: -0.6 },
+			translation: { x: -1, y: -1.2, z: -1.1 },
 			rotation: { x: -43, y: -17, z: -107 },
 			scale: 0.8
 		},

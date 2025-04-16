@@ -335,12 +335,12 @@
             {"code": "breathe"},
             {"code": "health",
                     "maxhealthByType": {
-                        "*-triceratops-adult-male": 200,"*-triceratops-adult-female": 190,"*-triceratops-baby-*": 20,
-                        "*-pentaceratops-adult-male": 180,"*-pentaceratops-adult-female": 170,"*-pentaceratops-baby-*": 18,
-                        "*-pachyrhinosaurus-adult-male": 185,"*-pachyrhinosaurus-adult-female": 175,"*-pachyrhinosaurus-baby-*": 18,
-                        "*-styracosaurus-adult-male": 170,"*-styracosaurus-adult-female": 160,"*-styracosaurus-baby-*": 16,
-                        "*-centrosaurus-adult-male": 170,"*-centrosaurus-adult-female": 160,"*-centrosaurus-baby-*": 16,
-                        "*-nasutoceratops-adult-male": 160,"*-nasutoceratops-adult-female": 150,"*-nasutoceratops-baby-*": 15,
+                        "*-triceratops-adult-male": 200,"*-triceratops-adult-female": 190,"*-triceratops-baby-*": 16,
+                        "*-pentaceratops-adult-male": 180,"*-pentaceratops-adult-female": 170,"*-pentaceratops-baby-*": 14,
+                        "*-pachyrhinosaurus-adult-male": 185,"*-pachyrhinosaurus-adult-female": 175,"*-pachyrhinosaurus-baby-*": 14,
+                        "*-styracosaurus-adult-male": 170,"*-styracosaurus-adult-female": 160,"*-styracosaurus-baby-*": 12,
+                        "*-centrosaurus-adult-male": 170,"*-centrosaurus-adult-female": 160,"*-centrosaurus-baby-*": 12,
+                        "*-nasutoceratops-adult-male": 160,"*-nasutoceratops-adult-female": 150,"*-nasutoceratops-baby-*": 10,
                     }
 			},
             {"code": "deaddecay",
@@ -552,15 +552,13 @@
 						"animation": "Trot",
 						"enabledByType": {"*-adult-*": true,"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*"],
+							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","spinosauridae-*","dromaeosauridae-*"],
 							"*": ["bell-*",
 							"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
 
 							"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
-							"*-dromaeosauridae-utahraptor-adult-*","*-dromaeosauridae-dakotaraptor-adult-*","*-dromaeosauridae-achillobator-adult-*","*-dromaeosauridae-austroraptor-adult-*","*-dromaeosauridae-deinonychus-adult-*","*-dromaeosauridae-dromaeosaurus-adult-*","*-dromaeosauridae-adasaurus-adult-*","*-dromaeosauridae-velociraptor-adult-*","*-dromaeosauridae-saurornitholestes-adult-*","*-dromaeosauridae-atrociraptor-adult-*","*-dromaeosauridae-pyroraptor-adult-*","*-dromaeosauridae-buitreraptor-adult-*","*-dromaeosauridae-microraptor-adult-*","*-dromaeosauridae-rahonavis-adult-*",
-
-
+							"*-dromaeosauridae-utahraptor-adult-*","*-dromaeosauridae-dakotaraptor-adult-*","*-dromaeosauridae-achillobator-adult-*",
 							]
 						},
 						"priority": 1.8,

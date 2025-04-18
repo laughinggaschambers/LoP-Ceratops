@@ -45,7 +45,14 @@
 						"west": { "texture": "#pentaceratops-adult", "uv": [ 111.0, 92.0, 139.0, 128.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,3,3] },
 						"up": { "texture": "#pentaceratops-adult", "uv": [ 110.0, 164.0, 135.0, 192.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [3,3,3,3] },
 						"down": { "texture": "#pentaceratops-adult", "uv": [ 110.0, 229.0, 135.0, 257.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
-					}
+					},
+					"attachmentpoints": [
+						{
+							"code": "Center",
+							"posX": "0.0","posY": "0.0","posZ": "0.0",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+						}
+					]
 				},
 				{
 					"name": "Body back",

@@ -2,7 +2,7 @@
 	"code": "ceratopsidae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus","anchiceratops","chasmosaurus",]},
+		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus"]},
 		{ "code": "age", "states": ["nest"] },
 		{ "code": "state", "states": ["incubating","mature","empty"] }
 	],
@@ -162,7 +162,7 @@
                 "groupSizeByType": {
 					"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 				},
-                "*":["ceratopsidae:ceratopsidae-{type}-adult-female"]},
+                "*":["ceratopsidae:ceratopsidae-{type}-adult-female","ceratopsidae:ceratopsidae-{type}-adult-male"]},
 
 			"runtime": {
 				"group": "neutral",
@@ -186,12 +186,12 @@
                     "game:soil-*"
                 ],
 				"companionsByType": {
-				"*":["ceratopsidae:ceratopsidae-{type}-adult-female","ceratopsidae:ceratopsidae-{type}-adult-female"]}
+				"*":["ceratopsidae:ceratopsidae-{type}-adult-female","ceratopsidae:ceratopsidae-{type}-adult-male"]}
 			},
 
     },
     "spawnconditionsByType": {
-			"*-triceratops-adult-*": {
+			"*-triceratops-*": {
 				"climate": {
 					"minTemp": 0,
 					"maxTemp": 35,
@@ -203,8 +203,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-pentaceratops-adult-*": {
+			"*-pentaceratops-*": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
@@ -216,8 +219,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-styracosaurus-adult-*": {
+			"*-styracosaurus-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -229,8 +235,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-centrosaurus-adult-*": {
+			"*-centrosaurus-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -242,8 +251,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-nasutoceratops-adult-*": {
+			"*-nasutoceratops-*": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
@@ -255,8 +267,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
-			"*-pachyrhinosaurus-adult-*": {
+			"*-pachyrhinosaurus-*": {
 				"climate": {
 					"minTemp": -10,
 					"maxTemp": 25,
@@ -268,6 +283,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+				}
 			},
 		}
 	}

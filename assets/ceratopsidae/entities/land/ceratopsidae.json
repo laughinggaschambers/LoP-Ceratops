@@ -357,23 +357,23 @@
 						"type": "item",
 						"code": "game:redmeat-raw",
 						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 100,"var": 10}, "*-triceratops-baby-*": {"avg": 10,"var": 3},
-							"*-pentaceratops-adult-*": {"avg": 80,"var": 10}, "*-pentaceratops-baby-*": {"avg": 8,"var": 3},
-							"*-pachyrhinosaurus-adult-*": {"avg": 80,"var": 10}, "*-pachyrhinosaurus-baby-*": {"avg": 8,"var": 3},
-							"*-styracosaurus-adult-*": {"avg": 70,"var": 10}, "*-styracosaurus-baby-*": {"avg": 7,"var": 3},
-							"*-centrosaurus-adult-*": {"avg": 70,"var": 10}, "*-centrosaurus-baby-*": {"avg": 7,"var": 3},
-							"*-nasutoceratops-adult-*": {"avg": 60,"var": 10}, "*-nasutoceratops-baby-*": {"avg": 6,"var": 3},
+							"*-triceratops-adult-*": {"avg": 100,"var": 10}, "*-triceratops-baby-*": {"avg": 5,"var": 1},
+							"*-pentaceratops-adult-*": {"avg": 80,"var": 10}, "*-pentaceratops-baby-*": {"avg": 4,"var": 1},
+							"*-pachyrhinosaurus-adult-*": {"avg": 80,"var": 10}, "*-pachyrhinosaurus-baby-*": {"avg": 4,"var": 1},
+							"*-styracosaurus-adult-*": {"avg": 70,"var": 10}, "*-styracosaurus-baby-*": {"avg": 3,"var": 1},
+							"*-centrosaurus-adult-*": {"avg": 70,"var": 10}, "*-centrosaurus-baby-*": {"avg": 3,"var": 1},
+							"*-nasutoceratops-adult-*": {"avg": 60,"var": 10}, "*-nasutoceratops-baby-*": {"avg": 2,"var": 1},
 						}
 					},
 					{
 						"type": "item",
 						"code": "game:fat",
 						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 50,"var": 5}, "*-triceratops-baby-*": {"avg": 5,"var": 3},
-							"*-pentaceratops-adult-*": {"avg": 30,"var": 5}, "*-pentaceratops-baby-*": {"avg": 3,"var": 2},
-							"*-pachyrhinosaurus-adult-*": {"avg": 30,"var": 5}, "*-pachyrhinosaurus-baby-*": {"avg": 3,"var": 2},
-							"*-styracosaurus-adult-*": {"avg": 20,"var": 5}, "*-styracosaurus-baby-*": {"avg": 2,"var": 1},
-							"*-centrosaurus-adult-*": {"avg": 20,"var": 5}, "*-centrosaurus-baby-*": {"avg": 2,"var": 1},
+							"*-triceratops-adult-*": {"avg": 50,"var": 5}, "*-triceratops-baby-*": {"avg": 3,"var": 3},
+							"*-pentaceratops-adult-*": {"avg": 30,"var": 5}, "*-pentaceratops-baby-*": {"avg": 2,"var": 2},
+							"*-pachyrhinosaurus-adult-*": {"avg": 30,"var": 5}, "*-pachyrhinosaurus-baby-*": {"avg": 2,"var": 2},
+							"*-styracosaurus-adult-*": {"avg": 20,"var": 5}, "*-styracosaurus-baby-*": {"avg": 1,"var": 1},
+							"*-centrosaurus-adult-*": {"avg": 20,"var": 5}, "*-centrosaurus-baby-*": {"avg": 1,"var": 1},
 							"*-nasutoceratops-adult-*": {"avg": 10,"var": 5}, "*-nasutoceratops-baby-*": {"avg": 1,"var": 0},
 						}
 					},
@@ -414,14 +414,28 @@
 				"pregnancyDaysByType": {"*": 30},
 				"multiplyCooldownDaysMinByType": {"*": 30},
 				"multiplyCooldownDaysMaxByType": {"*": 70},
-				"portionsEatenForMultiplyByType": {"*": 70}
+				"portionsEatenForMultiplyByType": {
+					"*-triceratops-*": 70,
+					"*-pentaceratops-*": 56,
+					"*-pachyrhinosaurus-*": 60,
+					"*-styracosaurus-*": 49,
+					"*-nasutoceratops-*": 49,
+					"*-centrosaurus-*": 42
+				}
 			},
             {"code": "grow",
 					"enabledByType": {
 					"*-baby-*": true,
 					"*": false
 				},
-				"hoursToGrowByType": {"*": 1050},
+				"hoursToGrowByType": {
+					"*-triceratops-*": 850,
+					"*-pentaceratops-*": 680,
+					"*-pachyrhinosaurus-*": 722,
+					"*-styracosaurus-*": 595,
+					"*-nasutoceratops-*": 595,
+					"*-centrosaurus-*": 510
+				},
 				"adultEntityCodesByType": {
 					"*-baby-male": ["ceratopsidae:ceratopsidae-{type}-adult-male"],
 					"*-baby-female": ["ceratopsidae:ceratopsidae-{type}-adult-female"]

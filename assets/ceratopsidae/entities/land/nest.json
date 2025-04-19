@@ -150,6 +150,7 @@
 		],
 		"spawnconditions": {
             "worldgen": {
+				"triesPerChunk": { "avg": 0.0, "var": 0},
                 "tryOnlySurface": true,
                 "insideBlockCodes": [
                     "game:air",
@@ -203,6 +204,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
@@ -218,6 +222,9 @@
 					"maxShrubs": 1.0,
 					"minY": 0.9,
 					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
@@ -235,6 +242,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
@@ -250,6 +260,9 @@
 					"maxShrubs": 1.0,
 					"minY": 0.9,
 					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
@@ -267,6 +280,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
@@ -282,6 +298,9 @@
 					"maxShrubs": 1.0,
 					"minY": 0.9,
 					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }

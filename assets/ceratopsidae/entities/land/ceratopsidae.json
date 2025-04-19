@@ -817,8 +817,7 @@
 		},
 		"runtime": {
 			"group": "neutral",
-			"TriesPerChunk": { "avg": 0.000, "var": 0 },
-			"MinDistanceToPlayer": 70,
+			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
 			"chanceByType": {
 				"*-triceratops-adult-male": 0.00001,"*-triceratops-adult-female": 0.00001,
@@ -829,7 +828,6 @@
 				"*-nasutoceratops-adult-male": 0.00001,"*-nasutoceratops-adult-female": 0.00001,
 				"*":0.00,
 			},
-			"maxQuantity": 1,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -857,8 +855,11 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
 				}
 			},
 			"*-pentaceratops-adult-*": {
@@ -873,8 +874,11 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
 				}
 			},
 			"*-styracosaurus-adult-*": {
@@ -888,6 +892,9 @@
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.6
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
@@ -905,6 +912,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
@@ -921,6 +931,9 @@
 					"minY": 0.9,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
@@ -936,6 +949,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }

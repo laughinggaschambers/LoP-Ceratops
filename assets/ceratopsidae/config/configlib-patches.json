@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "patches": {
+    "float": {
+      "ceratopsidae:entities/land/ceratopsidae.json": {
+        "/server/behaviors/11/drops/0/quantityByType/*-triceratops-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-triceratops-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-triceratops-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-triceratops-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-triceratops-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-triceratops-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-triceratops-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-triceratops-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/2/quantityByType/*-triceratops-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/11/drops/0/quantityByType/*-pentaceratops-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-pentaceratops-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-pentaceratops-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-pentaceratops-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pentaceratops-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pentaceratops-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pentaceratops-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pentaceratops-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/2/quantityByType/*-pentaceratops-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/11/drops/0/quantityByType/*-styracosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-styracosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-styracosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-styracosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-styracosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-styracosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-styracosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-styracosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/2/quantityByType/*-styracosaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/11/drops/0/quantityByType/*-centrosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-centrosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-centrosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-centrosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-centrosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-centrosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-centrosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-centrosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/2/quantityByType/*-centrosaurus-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/11/drops/0/quantityByType/*-nasutoceratops-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-nasutoceratops-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-nasutoceratops-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-nasutoceratops-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-nasutoceratops-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-nasutoceratops-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-nasutoceratops-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-nasutoceratops-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/2/quantityByType/*-nasutoceratops-adult-*/avg": "value * drop_multiplier",
+    "/server/behaviors/11/drops/0/quantityByType/*-pachyrhinosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-pachyrhinosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-pachyrhinosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/0/quantityByType/*-pachyrhinosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pachyrhinosaurus-adult-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pachyrhinosaurus-adult-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pachyrhinosaurus-baby-*/avg": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/1/quantityByType/*-pachyrhinosaurus-baby-*/var": "value * drop_multiplier",
+                        "/server/behaviors/11/drops/2/quantityByType/*-pachyrhinosaurus-adult-*/avg": "value * drop_multiplier",
+
+
+
+        "/server/spawnconditions/worldgen/triesPerChunk/avg": "worlgen",
+        "/server/spawnconditions/runtime/chanceByType/*-adult-*": "runtime",
+      }
+    }
+  },
+  "settings":[
+    {
+      "code": "drop_multiplier",
+      "type": "float",
+      "ingui": "setting-drop-multiplier",
+      "default": 1.0,
+      "range": {
+        "min": 0.00,
+        "max": 5.0,
+      }
+    },
+    {
+      "code": "worlgen",
+      "type": "float",
+      "ingui": "setting-worldgen-spawnrate",
+      "default": 0.001,
+      "range": {
+        "min": 0.00,
+        "max": 1.0,
+        "step":0.0001
+      }
+    },
+    {
+      "code": "runtime",
+      "type": "float",
+      "ingui": "setting-runtime-spawnrate",
+      "default": 0.00001,
+      "range": {
+        "min": 0.00,
+        "max": 1.0,
+        "step":0.00001
+      }
+    },
+  ]
+}

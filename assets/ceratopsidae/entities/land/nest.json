@@ -151,6 +151,8 @@
 		"spawnconditions": {
             "worldgen": {
 				"triesPerChunk": { "avg": 0.0, "var": 0},
+				"chanceByType": {"*-empty": 0.0,},
+				"maxQuantityByGroup": {"code": "ceratopsidae-*","maxQuantity": 1},
                 "tryOnlySurface": true,
                 "insideBlockCodes": [
                     "game:air",
@@ -168,7 +170,7 @@
 			"runtime": {
 				"group": "neutral",
 				"tryOnlySurface": true,
-				"maxQuantityByGroup": {"code": "*",	"maxQuantity": 1},
+				"maxQuantityByGroup": {"code": "ceratopsidae-*",	"maxQuantity": 1},
 				"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
 				"TriesPerChunk": { "avg": 0.0, "var": 0 },
 				"mindistancetoplayer": 50,
@@ -192,7 +194,7 @@
 
     },
     "spawnconditionsByType": {
-			"*-triceratops-*": {
+			"*-triceratops-nest-incubating": {
 				"climate": {
 					"minTemp": 0,
 					"maxTemp": 35,
@@ -211,7 +213,7 @@
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
 			},
-			"*-pentaceratops-*": {
+			"*-pentaceratops-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
@@ -230,7 +232,7 @@
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
 			},
-			"*-styracosaurus-*": {
+			"*-styracosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -249,7 +251,7 @@
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
 			},
-			"*-centrosaurus-*": {
+			"*-centrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -268,7 +270,7 @@
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
 			},
-			"*-nasutoceratops-*": {
+			"*-nasutoceratops-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
@@ -287,7 +289,7 @@
 					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
 				}
 			},
-			"*-pachyrhinosaurus-*": {
+			"*-pachyrhinosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": -10,
 					"maxTemp": 25,

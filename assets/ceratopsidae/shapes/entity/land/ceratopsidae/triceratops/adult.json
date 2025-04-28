@@ -1525,6 +1525,198 @@
 											]
 										},
 										{
+											"name": "Nose Base Horn2",
+											"from": [ 7.3, 8.53, 10.0 ],
+											"to": [ 13.3, 13.03, 16.0 ],
+											"unwrapMode": 4,
+											"uv": [ 0.0, 157.0 ],
+											"rotationOrigin": [ 13.2982, 8.5265, 13.0 ],
+											"rotationX": 119.0,
+											"rotationY": 180.0,
+											"rotationZ": -17.0,
+											"faces": {
+												"north": { "texture": "#pentaceratops-adult", "uv": [ 0.0, 163.0, 6.0, 167.5 ] },
+												"east": { "texture": "#pentaceratops-adult", "uv": [ 18.0, 163.0, 24.0, 167.5 ] },
+												"south": { "texture": "#pentaceratops-adult", "uv": [ 12.0, 163.0, 18.0, 167.5 ] },
+												"west": { "texture": "#pentaceratops-adult", "uv": [ 6.0, 163.0, 12.0, 167.5 ] },
+												"up": { "texture": "#pentaceratops-adult", "uv": [ 6.0, 157.0, 12.0, 163.0 ], "rotation": 90 },
+												"down": { "texture": "#pentaceratops-adult", "uv": [ 6.0, 167.5, 12.0, 173.5 ], "rotation": 90 }
+											},
+											"children": [
+												{
+													"name": "Nose Horn5",
+													"from": [ -0.52, 2.54, 1.5 ],
+													"to": [ 4.48, 6.04, 6.5 ],
+													"unwrapMode": 4,
+													"uv": [ 0.0, 143.0 ],
+													"rotationOrigin": [ 2.4787, 2.5355, 3.5 ],
+													"rotationY": 180.0,
+													"rotationZ": -6.0,
+													"faces": {
+														"north": { "texture": "#pentaceratops-adult", "uv": [ 0.0, 148.0, 5.0, 151.5 ] },
+														"east": { "texture": "#pentaceratops-adult", "uv": [ 15.0, 148.0, 20.0, 151.5 ] },
+														"south": { "texture": "#pentaceratops-adult", "uv": [ 10.0, 148.0, 15.0, 151.5 ] },
+														"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 148.0, 10.0, 151.5 ] },
+														"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 143.0, 10.0, 148.0 ], "rotation": 90 },
+														"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 151.5, 10.0, 156.5 ], "rotation": 90 }
+													},
+													"children": [
+														{
+															"name": "Nose Horn6",
+															"from": [ 0.6, 2.0, 0.5 ],
+															"to": [ 4.6, 4.9, 4.5 ],
+															"unwrapMode": 4,
+															"uv": [ 1.0, 132.0 ],
+															"rotationOrigin": [ 3.0, 2.0, 2.5 ],
+															"rotationZ": -6.0,
+															"faces": {
+																"north": { "texture": "#pentaceratops-adult", "uv": [ 1.0, 136.0, 5.0, 138.5 ] },
+																"east": { "texture": "#pentaceratops-adult", "uv": [ 13.0, 136.0, 17.0, 138.5 ] },
+																"south": { "texture": "#pentaceratops-adult", "uv": [ 9.0, 136.0, 13.0, 138.5 ] },
+																"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 136.0, 9.0, 138.5 ] },
+																"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 132.0, 9.0, 136.0 ], "rotation": 90 },
+																"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 138.5, 9.0, 142.5 ], "rotation": 90 }
+															},
+															"children": [
+																{
+																	"name": "Nose Horn7",
+																	"from": [ 0.6, 1.0, 0.5 ],
+																	"to": [ 3.6, 4.0, 3.5 ],
+																	"unwrapMode": 4,
+																	"uv": [ 2.0, 123.0 ],
+																	"rotationOrigin": [ 0.6, 2.0, 2.0 ],
+																	"rotationZ": -6.0,
+																	"faces": {
+																		"north": { "texture": "#pentaceratops-adult", "uv": [ 2.0, 126.0, 5.0, 129.0 ] },
+																		"east": { "texture": "#pentaceratops-adult", "uv": [ 11.0, 126.0, 14.0, 129.0 ] },
+																		"south": { "texture": "#pentaceratops-adult", "uv": [ 8.0, 126.0, 11.0, 129.0 ] },
+																		"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 126.0, 8.0, 129.0 ] },
+																		"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 123.0, 8.0, 126.0 ], "rotation": 90 },
+																		"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 129.0, 8.0, 132.0 ], "rotation": 90 }
+																	},
+																	"children": [
+																		{
+																			"name": "Nose Horn8",
+																			"from": [ 0.4, 1.0, 0.3 ],
+																			"to": [ 2.4, 4.0, 2.3 ],
+																			"unwrapMode": 4,
+																			"uv": [ 3.0, 116.0 ],
+																			"rotationOrigin": [ 0.4, 2.0, 1.8 ],
+																			"rotationZ": -6.0,
+																			"faces": {
+																				"north": { "texture": "#pentaceratops-adult", "uv": [ 3.0, 118.0, 5.0, 121.0 ] },
+																				"east": { "texture": "#pentaceratops-adult", "uv": [ 9.0, 118.0, 11.0, 121.0 ] },
+																				"south": { "texture": "#pentaceratops-adult", "uv": [ 7.0, 118.0, 9.0, 121.0 ] },
+																				"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 118.0, 7.0, 121.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+																				"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 116.0, 7.0, 118.0 ], "rotation": 90 },
+																				"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 121.0, 7.0, 123.0 ], "rotation": 90 }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Nose Base Horn3",
+											"from": [ 7.3, 9.53, -5.0 ],
+											"to": [ 13.3, 14.03, 1.0 ],
+											"unwrapMode": 4,
+											"uv": [ 0.0, 157.0 ],
+											"rotationOrigin": [ 13.2982, 9.5265, -2.0 ],
+											"rotationX": -119.0,
+											"rotationY": 180.0,
+											"rotationZ": -17.0,
+											"faces": {
+												"north": { "texture": "#pentaceratops-adult", "uv": [ 0.0, 163.0, 6.0, 167.5 ] },
+												"east": { "texture": "#pentaceratops-adult", "uv": [ 18.0, 163.0, 24.0, 167.5 ] },
+												"south": { "texture": "#pentaceratops-adult", "uv": [ 12.0, 163.0, 18.0, 167.5 ] },
+												"west": { "texture": "#pentaceratops-adult", "uv": [ 6.0, 163.0, 12.0, 167.5 ] },
+												"up": { "texture": "#pentaceratops-adult", "uv": [ 6.0, 157.0, 12.0, 163.0 ], "rotation": 90 },
+												"down": { "texture": "#pentaceratops-adult", "uv": [ 6.0, 167.5, 12.0, 173.5 ], "rotation": 90 }
+											},
+											"children": [
+												{
+													"name": "Nose Horn9",
+													"from": [ -0.52, 2.54, 1.5 ],
+													"to": [ 4.48, 6.04, 6.5 ],
+													"unwrapMode": 4,
+													"uv": [ 0.0, 143.0 ],
+													"rotationOrigin": [ 2.4787, 2.5355, 3.5 ],
+													"rotationY": 180.0,
+													"rotationZ": -6.0,
+													"faces": {
+														"north": { "texture": "#pentaceratops-adult", "uv": [ 0.0, 148.0, 5.0, 151.5 ] },
+														"east": { "texture": "#pentaceratops-adult", "uv": [ 15.0, 148.0, 20.0, 151.5 ] },
+														"south": { "texture": "#pentaceratops-adult", "uv": [ 10.0, 148.0, 15.0, 151.5 ] },
+														"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 148.0, 10.0, 151.5 ] },
+														"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 143.0, 10.0, 148.0 ], "rotation": 90 },
+														"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 151.5, 10.0, 156.5 ], "rotation": 90 }
+													},
+													"children": [
+														{
+															"name": "Nose Horn10",
+															"from": [ 0.6, 2.0, 0.5 ],
+															"to": [ 4.6, 4.9, 4.5 ],
+															"unwrapMode": 4,
+															"uv": [ 1.0, 132.0 ],
+															"rotationOrigin": [ 3.0, 2.0, 2.5 ],
+															"rotationZ": -6.0,
+															"faces": {
+																"north": { "texture": "#pentaceratops-adult", "uv": [ 1.0, 136.0, 5.0, 138.5 ] },
+																"east": { "texture": "#pentaceratops-adult", "uv": [ 13.0, 136.0, 17.0, 138.5 ] },
+																"south": { "texture": "#pentaceratops-adult", "uv": [ 9.0, 136.0, 13.0, 138.5 ] },
+																"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 136.0, 9.0, 138.5 ] },
+																"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 132.0, 9.0, 136.0 ], "rotation": 90 },
+																"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 138.5, 9.0, 142.5 ], "rotation": 90 }
+															},
+															"children": [
+																{
+																	"name": "Nose Horn11",
+																	"from": [ 0.6, 1.0, 0.5 ],
+																	"to": [ 3.6, 4.0, 3.5 ],
+																	"unwrapMode": 4,
+																	"uv": [ 2.0, 123.0 ],
+																	"rotationOrigin": [ 0.6, 2.0, 2.0 ],
+																	"rotationZ": -6.0,
+																	"faces": {
+																		"north": { "texture": "#pentaceratops-adult", "uv": [ 2.0, 126.0, 5.0, 129.0 ] },
+																		"east": { "texture": "#pentaceratops-adult", "uv": [ 11.0, 126.0, 14.0, 129.0 ] },
+																		"south": { "texture": "#pentaceratops-adult", "uv": [ 8.0, 126.0, 11.0, 129.0 ] },
+																		"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 126.0, 8.0, 129.0 ] },
+																		"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 123.0, 8.0, 126.0 ], "rotation": 90 },
+																		"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 129.0, 8.0, 132.0 ], "rotation": 90 }
+																	},
+																	"children": [
+																		{
+																			"name": "Nose Horn12",
+																			"from": [ 0.4, 1.0, 0.3 ],
+																			"to": [ 2.4, 4.0, 2.3 ],
+																			"unwrapMode": 4,
+																			"uv": [ 3.0, 116.0 ],
+																			"rotationOrigin": [ 0.4, 2.0, 1.8 ],
+																			"rotationZ": -6.0,
+																			"faces": {
+																				"north": { "texture": "#pentaceratops-adult", "uv": [ 3.0, 118.0, 5.0, 121.0 ] },
+																				"east": { "texture": "#pentaceratops-adult", "uv": [ 9.0, 118.0, 11.0, 121.0 ] },
+																				"south": { "texture": "#pentaceratops-adult", "uv": [ 7.0, 118.0, 9.0, 121.0 ] },
+																				"west": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 118.0, 7.0, 121.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+																				"up": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 116.0, 7.0, 118.0 ], "rotation": 90 },
+																				"down": { "texture": "#pentaceratops-adult", "uv": [ 5.0, 121.0, 7.0, 123.0 ], "rotation": 90 }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
 											"name": "Head2",
 											"from": [ 12.0, 3.0, -3.0 ],
 											"to": [ 22.0, 20.0, 15.0 ],

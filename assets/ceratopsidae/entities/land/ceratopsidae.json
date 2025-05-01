@@ -287,6 +287,7 @@
 
 		},
         "behaviors": [
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeight": 1.1251},
 			{"code": "floatupwhenstuck","onlyWhenDead": true},
@@ -299,7 +300,7 @@
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+
         ],
         "animations": [
 			{"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -324,10 +325,11 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 350,"maxTurnAnglePerSec": 650}},
         "behaviors": [
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeight": 1.1251},
             {"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
@@ -465,7 +467,9 @@
 						"enabledByType": {
 							"*": true},
 						"entityCodesByType": {
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]},
+							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+							"lure-*", "hitch",
+							"tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]},
 						"priority": 1.9,
 						"slot": 1,
 						"damageByType": {
@@ -568,7 +572,7 @@
 						"entityCodesByType": {
 							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 							"*": ["bell-*",
-							"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
+							"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
 							"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
@@ -782,6 +786,42 @@
 						},
 						"preferredLightLevel": 24,
 						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+
+					{
+						"code": "stayclosetoentity",
+						"animation": "Run",
+						"priority": 2,
+						"entityCodeByType": {
+							"*-adult-*": "hitch"
+							},
+						"movespeedByType": {
+							"*-adult-*": 0.045,
+							"*-baby-*": 0.0385,
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 5,
+							"*": 4.5
+						},
+						"maxDistance": 6,
+						"searchRange": 10,
+
+					},
+					{
+						"code": "seekentity",
+						"animation": "Run",
+						"entityCodesByType": {"*-adult-*":["hitch"],},
+						"priority": 1.85,
+						"seekingRange": 10,
+						"belowTempSeekingRange": 10,
+						"movespeedByType": {
+							"*-adult-*": 0.045,
+							"*-baby-*": 0.0385,
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 5,
+							"*": 4.5
+						},
 					},
 
 

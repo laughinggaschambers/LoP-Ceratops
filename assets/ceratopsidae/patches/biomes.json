@@ -5,6 +5,23 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
+      "*-sinoceratops-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
+      "*-protoceratops-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
+      "*-ajkaceratops-*": {
+        "biorealm": [
+          "atlantic palearctic",
+        ]
+      },
       "*": {
         "biorealm": [
           "atlantic nearctic",
@@ -24,6 +41,23 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
+      "*-sinoceratops-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
+      "*-protoceratops-*": {
+        "biorealm": [
+          "eastern palearctic",
+        ]
+      },
+
+      "*-ajkaceratops-*": {
+        "biorealm": [
+          "atlantic palearctic",
+        ]
+      },
       "*": {
         "biorealm": [
           "atlantic nearctic",

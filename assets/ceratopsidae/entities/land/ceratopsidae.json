@@ -2,24 +2,50 @@
     "code": "ceratopsidae",
     "class": "EntityAgent",
     "variantgroups": [
-        {"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus"]},
+        {"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus","torosaurus","xenoceratops","machairoceratops","nedoceratops","sinoceratops","regaliceratops","leptoceratops","protoceratops","ajkaceratops",]},
         {"code": "age","states": [ "adult","baby"]},
         {"code": "gender","states": ["male","female"]},
     ],
-    "fallDamageMultiplierByType": { "*-baby-*" :2,"*-adult-*" :7},
+    "fallDamageMultiplierByType": {
+		"*-baby-*" :2,
+		"*-triceratops-adult-*":7.0,
+		"*-torosaurus-adult-*":7.0,
+		"*-pentaceratops-adult-*":6.2,
+		"*-pachyrhinosaurus-adult-*":6.2,
+		"*-styracosaurus-adult-*":6.2,
+		"*-centrosaurus-adult-*":6.1,
+		"*-xenoceratops-adult-*":6.2,
+		"*-machairoceratops-adult-*":6.2,
+		"*-nedoceratops-adult-*":6.2,
+		"*-sinoceratops-adult-*":6.0,
+		"*-regaliceratops-adult-*":6.0,
+		"*-nasutoceratops-adult-*":5.8,
+		"*-leptoceratops-adult-*":5.3,
+		"*-protoceratops-adult-*":5.1,
+		"*-ajkaceratops-adult-*":4.9,
+		},
     "hitBoxSizeByType": {
-			"*-triceratops-adult-male": {"x": 2.5,"y": 2.5},"*-triceratops-adult-female": {"x": 2.5,"y": 2.5},"*-triceratops-baby-*": {"x": 0.75,"y": 0.75},
-			"*-pentaceratops-adult-male": {"x": 2.5,"y": 2.2},"*-pentaceratops-adult-female": {"x": 2.5,"y": 2.3},"*-pentaceratops-baby-*": {"x": 0.65,"y": 0.65},
-			"*-pachyrhinosaurus-adult-male": {"x": 2.5,"y": 2.2},"*-pachyrhinosaurus-adult-female": {"x": 2.5,"y": 2.3},"*-pachyrhinosaurus-baby-*": {"x": 0.65,"y": 0.65},
-			"*-styracosaurus-adult-male": {"x": 2.5,"y": 2.1},"*-styracosaurus-adult-female": {"x": 2.5,"y": 2},"*-styracosaurus-baby-*": {"x": 0.65,"y": 0.65},
-			"*-centrosaurus-adult-male": {"x": 2.5,"y": 2.1},"*-centrosaurus-adult-female": {"x": 2.5,"y": 2},"*-centrosaurus-baby-*": {"x": 0.65,"y": 0.65},
-			"*-nasutoceratops-adult-male": {"x": 2.5,"y": 1.8},"*-nasutoceratops-adult-female": {"x": 2,"y": 1.8},"*-nasutoceratops-baby-*": {"x": 0.5,"y": 0.5},
+			"*-triceratops-adult-*": {"x": 2.5,"y": 2.5}, "*-triceratops-baby-*": {"x": 1.2,"y": 1.2},
+			"*-torosaurus-adult-*": {"x": 2.5,"y": 2.5}, "*-torosaurus-baby-*": {"x": 1.2,"y": 1.2},
+			"*-pentaceratops-adult-*": {"x": 1.7,"y": 1.7}, "*-pentaceratops-baby-*": {"x": 0.9,"y": 0.9},
+			"*-pachyrhinosaurus-adult-*": {"x": 1.7,"y": 1.7}, "*-pachyrhinosaurus-baby-*": {"x": 0.9,"y": 0.9},
+			"*-styracosaurus-adult-*": {"x": 1.7,"y": 1.7}, "*-styracosaurus-baby-*": {"x": 0.9,"y": 0.9},
+			"*-centrosaurus-adult-*": {"x": 1.6,"y": 1.6}, "*-centrosaurus-baby-*": {"x": 0.8,"y": 0.8},
+			"*-xenoceratops-adult-*": {"x": 1.7,"y": 1.7}, "*-xenoceratops-baby-*": {"x": 0.9,"y": 0.9},
+			"*-machairoceratops-adult-*": {"x": 1.7,"y": 1.7}, "*-machairoceratops-baby-*": {"x": 0.9,"y": 0.9},
+			"*-nedoceratops-adult-*": {"x": 1.7,"y": 1.7}, "*-nedoceratops-baby-*": {"x": 0.9,"y": 0.9},
+			"*-sinoceratops-adult-*": {"x": 1.5,"y": 1.5}, "*-sinoceratops-baby-*": {"x": 0.8,"y": 0.8},
+			"*-regaliceratops-adult-*": {"x": 1.5,"y": 1.5}, "*-regaliceratops-baby-*": {"x": 0.8,"y": 0.8},
+			"*-nasutoceratops-adult-*": {"x": 1.3,"y": 1.3}, "*-nasutoceratops-baby-*": {"x": 0.7,"y": 0.7},
+			"*-leptoceratops-adult-*": {"x": 0.9,"y": 0.9}, "*-leptoceratops-baby-*": {"x": 0.5,"y": 0.5},
+			"*-protoceratops-adult-*": {"x": 0.6,"y": 0.6}, "*-protoceratops-baby-*": {"x": 0.3,"y": 0.3},
+			"*-ajkaceratops-adult-*": {"x": 0.4,"y": 0.4}, "*-ajkaceratops-baby-*": {"x": 0.2,"y": 0.2},
 		},
 
-    "deadhitBoxSizeByType": {"*-adult-*":{	"x": 3,"y": 3},"*-baby-*":{	"x": 1,"y": 1}},
-    "eyeHeightByType": {"*":1},
+    "deadhitBoxSizeByType": {"*-adult-*":{	"x": 2,"y": 2},"*-baby-*":{	"x": 1,"y": 1}},
+    "eyeHeightByType": {"*":3},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
-    "knockbackResistanceByType": {"*-adult-*": 2,"*-baby-*": 1	},
+    "knockbackResistanceByType": {"*-adult-*": 1,"*-baby-*": 1	},
 
     "drops": [],
     "attributes": {
@@ -39,15 +65,25 @@
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
 				{"code": "middleback", "forCategoryCodes": ["ceratopssaddle"], "attachmentPointCode": "MidAP", },
+				{"code": "Back Storage 1","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "BStore1AP","stepParentTo": {"": { "elementName": "BackStorage1" }}},
+				{"code": "Back Storage 2","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "BStore2AP","stepParentTo": {"": { "elementName": "BackStorage2" }}},
+				{"code": "Side Storage L","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "SStoreLAP","stepParentTo": {"": { "elementName": "SideStorageL" }}},
+				{"code": "Side Storage R","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "SStoreRAP","stepParentTo": {"": { "elementName": "SideStorageR" }}},
+				{"code": "Back Rider2","forCategoryCodes": [],"attachmentPointcode": "TailAP","stepParentTo": {"": { "elementName": "Tail" }}},
 			]
 		},
 		"selectionboxes": {
-			"selectionBoxes": ["HeadAP","FaceAP", "NeckAP", "MidAP"]
+			"selectionBoxes": ["HeadAP","FaceAP", "NeckAP", "MidAP","BStore1AP","BStore2AP","SStoreLAP","SStoreRAP","TailAP"]
 		},
 		"rideable": {
 			"interactMountAnySeat": true,
 			"seats": [
 				{ "apName": "Rider", "selectionBox": "NeckAP", "bodyYawLimit": 0.2, "controllable": true,
+					"mountOffsetByType": {
+						"*": {"x":0,"y":0.0,"z":0},
+					}
+				},
+				{ "apName": "Rider2", "selectionBox": "TailAP", "bodyYawLimit": 0.2, "controllable": false,
 					"mountOffsetByType": {
 						"*": {"x":0,"y":0.0,"z":0},
 					}
@@ -262,32 +298,59 @@
     "client": {
         "renderer": "Shape",
         "shapeByType": {
-			"*-triceratops-adult-*":{"base": "entity/land/ceratopsidae/triceratops/adult"},"*-triceratops-baby-*":{"base": "entity/land/ceratopsidae/triceratops/baby"},
-			"*-centrosaurus-adult-*":{"base": "entity/land/ceratopsidae/centrosaurus/adult"},"*-centrosaurus-baby-*":{"base": "entity/land/ceratopsidae/centrosaurus/baby"},
-			"*-nasutoceratops-adult-*":{"base": "entity/land/ceratopsidae/nasutoceratops/adult"},"*-nasutoceratops-baby-*":{"base": "entity/land/ceratopsidae/nasutoceratops/baby"},
-			"*-pachyrhinosaurus-adult-*":{"base": "entity/land/ceratopsidae/pachyrhinosaurus/adult"},"*-pachyrhinosaurus-baby-*":{"base": "entity/land/ceratopsidae/pachyrhinosaurus/baby"},
-			"*-pentaceratops-adult-*":{"base": "entity/land/ceratopsidae/pentaceratops/adult"},"*-pentaceratops-baby-*":{"base": "entity/land/ceratopsidae/pentaceratops/baby"},
-			"*-styracosaurus-adult-*":{"base": "entity/land/ceratopsidae/styracosaurus/adult"},"*-styracosaurus-baby-*":{"base": "entity/land/ceratopsidae/styracosaurus/baby"},
+			"*-triceratops-adult-*": {"base": "entity/land/ceratopsidae/triceratops/adult"}, "*-triceratops-baby-*": {"base": "entity/land/ceratopsidae/triceratops/baby"},
+			"*-torosaurus-adult-*": {"base": "entity/land/ceratopsidae/torosaurus/adult"}, "*-torosaurus-baby-*": {"base": "entity/land/ceratopsidae/torosaurus/baby"},
+			"*-pentaceratops-adult-*": {"base": "entity/land/ceratopsidae/pentaceratops/adult"}, "*-pentaceratops-baby-*": {"base": "entity/land/ceratopsidae/pentaceratops/baby"},
+			"*-pachyrhinosaurus-adult-*": {"base": "entity/land/ceratopsidae/pachyrhinosaurus/adult"}, "*-pachyrhinosaurus-baby-*": {"base": "entity/land/ceratopsidae/pachyrhinosaurus/baby"},
+			"*-styracosaurus-adult-*": {"base": "entity/land/ceratopsidae/styracosaurus/adult"}, "*-styracosaurus-baby-*": {"base": "entity/land/ceratopsidae/styracosaurus/baby"},
+			"*-centrosaurus-adult-*": {"base": "entity/land/ceratopsidae/centrosaurus/adult"}, "*-centrosaurus-baby-*": {"base": "entity/land/ceratopsidae/centrosaurus/baby"},
+			"*-xenoceratops-adult-*": {"base": "entity/land/ceratopsidae/xenoceratops/adult"}, "*-xenoceratops-baby-*": {"base": "entity/land/ceratopsidae/xenoceratops/baby"},
+			"*-machairoceratops-adult-*": {"base": "entity/land/ceratopsidae/machairoceratops/adult"}, "*-machairoceratops-baby-*": {"base": "entity/land/ceratopsidae/machairoceratops/baby"},
+			"*-nedoceratops-adult-*": {"base": "entity/land/ceratopsidae/nedoceratops/adult"}, "*-nedoceratops-baby-*": {"base": "entity/land/ceratopsidae/nedoceratops/baby"},
+			"*-sinoceratops-adult-*": {"base": "entity/land/ceratopsidae/sinoceratops/adult"}, "*-sinoceratops-baby-*": {"base": "entity/land/ceratopsidae/sinoceratops/baby"},
+			"*-regaliceratops-adult-*": {"base": "entity/land/ceratopsidae/regaliceratops/adult"}, "*-regaliceratops-baby-*": {"base": "entity/land/ceratopsidae/regaliceratops/baby"},
+			"*-nasutoceratops-adult-*": {"base": "entity/land/ceratopsidae/nasutoceratops/adult"}, "*-nasutoceratops-baby-*": {"base": "entity/land/ceratopsidae/nasutoceratops/baby"},
+			"*-leptoceratops-adult-*": {"base": "entity/land/ceratopsidae/leptoceratops/adult"}, "*-leptoceratops-baby-*": {"base": "entity/land/ceratopsidae/leptoceratops/baby"},
+			"*-protoceratops-adult-*": {"base": "entity/land/ceratopsidae/protoceratops/adult"}, "*-protoceratops-baby-*": {"base": "entity/land/ceratopsidae/protoceratops/baby"},
+			"*-ajkaceratops-adult-*": {"base": "entity/land/ceratopsidae/ajkaceratops/adult"}, "*-ajkaceratops-baby-*": {"base": "entity/land/ceratopsidae/ajkaceratops/baby"},
 		},
          "textureByType": {
             "*-triceratops-adult-*":{"base": "entity/triceratops-adult"},"*-triceratops-baby-*":{"base": "entity/triceratops-adult"},
-			"*-centrosaurus-adult-*":{"base": "entity/centrosaurus-adult"},"*-centrosaurus-baby-*":{"base": "entity/centrosaurus-adult"},
-			"*-nasutoceratops-adult-*":{"base": "entity/nasutoceratops-adult"},"*-nasutoceratops-baby-*":{"base": "entity/nasutoceratops-adult"},
-			"*-pachyrhinosaurus-adult-*":{"base": "entity/pachyrhinosaurus-adult"},"*-pachyrhinosaurus-baby-*":{"base": "entity/pachyrhinosaurus-adult"},
+			"*-torosaurus-adult-*":{"base": "entity/torosaurus-adult"},"*-torosaurus-baby-*":{"base": "entity/torosaurus-adult"},
 			"*-pentaceratops-adult-*":{"base": "entity/pentaceratops-adult"},"*-pentaceratops-baby-*":{"base": "entity/pentaceratops-adult"},
+			"*-pachyrhinosaurus-adult-*":{"base": "entity/pachyrhinosaurus-adult"},"*-pachyrhinosaurus-baby-*":{"base": "entity/pachyrhinosaurus-adult"},
 			"*-styracosaurus-adult-*":{"base": "entity/styracosaurus-adult"},"*-styracosaurus-baby-*":{"base": "entity/styracosaurus-adult"},
+			"*-centrosaurus-adult-*":{"base": "entity/centrosaurus-adult"},"*-centrosaurus-baby-*":{"base": "entity/centrosaurus-adult"},
+			"*-xenoceratops-adult-*":{"base": "entity/xenoceratops-adult"},"*-xenoceratops-baby-*":{"base": "entity/xenoceratops-adult"},
+			"*-machairoceratops-adult-*":{"base": "entity/machairoceratops-adult"},"*-machairoceratops-baby-*":{"base": "entity/machairoceratops-adult"},
+			"*-nedoceratops-adult-*":{"base": "entity/nedoceratops-adult"},"*-nedoceratops-baby-*":{"base": "entity/nedoceratops-adult"},
+			"*-sinoceratops-adult-*":{"base": "entity/sinoceratops-adult"},"*-sinoceratops-baby-*":{"base": "entity/sinoceratops-adult"},
+			"*-regaliceratops-adult-*":{"base": "entity/regaliceratops-adult"},"*-regaliceratops-baby-*":{"base": "entity/regaliceratops-adult"},
+			"*-nasutoceratops-adult-*":{"base": "entity/nasutoceratops-adult"},"*-nasutoceratops-baby-*":{"base": "entity/nasutoceratops-adult"},
+			"*-leptoceratops-adult-*":{"base": "entity/leptoceratops-adult"},"*-leptoceratops-baby-*":{"base": "entity/leptoceratops-adult"},
+			"*-protoceratops-adult-*":{"base": "entity/protoceratops-adult"},"*-protoceratops-baby-*":{"base": "entity/protoceratops-adult"},
+			"*-ajkaceratops-adult-*":{"base": "entity/ajkaceratops-adult"},"*-ajkaceratops-baby-*":{"base": "entity/ajkaceratops-adult"},
         },
         "sizeByType": {
 			"*-triceratops-adult-male": 1.0,"*-triceratops-adult-female": 0.9,"*-triceratops-baby-*": 1.0,
-			"*-pentaceratops-adult-male": 0.80,"*-pentaceratops-adult-female": 0.70,"*-pentaceratops-baby-*": 1.0,
-			"*-pachyrhinosaurus-adult-male": 0.85,"*-pachyrhinosaurus-adult-female": 0.75,"*-pachyrhinosaurus-baby-*": 1.0,
-			"*-styracosaurus-adult-male": 0.7,"*-styracosaurus-adult-female": 0.65,"*-styracosaurus-baby-*": 1.0,
-			"*-centrosaurus-adult-male": 0.7,"*-centrosaurus-adult-female": 0.6,"*-centrosaurus-baby-*": 1.0,
-			"*-nasutoceratops-adult-male": 0.6,"*-nasutoceratops-adult-female": 0.5,"*-nasutoceratops-baby-*": 1.0,
+			"*-torosaurus-adult-male": 1.0,"*-torosaurus-adult-female": 0.9,"*-torosaurus-baby-*": 1.0,
+			"*-pentaceratops-adult-male": 0.67,"*-pentaceratops-adult-female": 0.6,"*-pentaceratops-baby-*": 0.67,
+			"*-pachyrhinosaurus-adult-male": 0.67,"*-pachyrhinosaurus-adult-female": 0.6,"*-pachyrhinosaurus-baby-*": 0.67,
+			"*-styracosaurus-adult-male": 0.64,"*-styracosaurus-adult-female": 0.5,"*-styracosaurus-baby-*": 0.64,
+			"*-centrosaurus-adult-male": 0.61,"*-centrosaurus-adult-female": 0.5,"*-centrosaurus-baby-*": 0.61,
+			"*-xenoceratops-adult-male": 0.67,"*-xenoceratops-adult-female": 0.6,"*-xenoceratops-baby-*": 0.67,
+			"*-machairoceratops-adult-male": 0.67,"*-machairoceratops-adult-female": 0.6,"*-machairoceratops-baby-*": 0.67,
+			"*-nedoceratops-adult-male": 0.67,"*-nedoceratops-adult-female": 0.6,"*-nedoceratops-baby-*": 0.67,
+			"*-sinoceratops-adult-male": 0.56,"*-sinoceratops-adult-female": 0.4,"*-sinoceratops-baby-*": 0.56,
+			"*-regaliceratops-adult-male": 0.56,"*-regaliceratops-adult-female": 0.4,"*-regaliceratops-baby-*": 0.56,
+			"*-nasutoceratops-adult-male": 0.5,"*-nasutoceratops-adult-female": 0.4,"*-nasutoceratops-baby-*": 0.5,
+			"*-leptoceratops-adult-male": 0.29,"*-leptoceratops-adult-female": 0.2,"*-leptoceratops-baby-*": 0.29,
+			"*-protoceratops-adult-male": 0.2,"*-protoceratops-adult-female": 0.1,"*-protoceratops-baby-*": 0.2,
+			"*-ajkaceratops-adult-male": 0.11,"*-ajkaceratops-adult-female": 0.0,"*-ajkaceratops-baby-*": 0.11,
 
 		},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeight": 1.1251},
 			{"code": "floatupwhenstuck","onlyWhenDead": true},
@@ -295,11 +358,11 @@
 			{"code": "harvestable","quantitySlots": 8},
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
-			{"code": "antlergrowth", "enabledByType": {"*-baby-*": false,"*": true }},
+			{"code": "antlergrowth", "enabledByType": {"*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false,"*": true }},
 			{"code": "ropetieable","minGeneration": 4},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 
         ],
         "animations": [
@@ -325,10 +388,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 350,"maxTurnAnglePerSec": 650}},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeight": 1.1251},
@@ -337,12 +400,21 @@
             {"code": "breathe"},
             {"code": "health",
                     "maxhealthByType": {
-                        "*-triceratops-adult-male": 200,"*-triceratops-adult-female": 190,"*-triceratops-baby-*": 16,
-                        "*-pentaceratops-adult-male": 180,"*-pentaceratops-adult-female": 170,"*-pentaceratops-baby-*": 14,
-                        "*-pachyrhinosaurus-adult-male": 185,"*-pachyrhinosaurus-adult-female": 175,"*-pachyrhinosaurus-baby-*": 14,
-                        "*-styracosaurus-adult-male": 170,"*-styracosaurus-adult-female": 160,"*-styracosaurus-baby-*": 12,
-                        "*-centrosaurus-adult-male": 170,"*-centrosaurus-adult-female": 160,"*-centrosaurus-baby-*": 12,
-                        "*-nasutoceratops-adult-male": 160,"*-nasutoceratops-adult-female": 150,"*-nasutoceratops-baby-*": 10,
+                        "*-triceratops-adult-male": 200.0,"*-triceratops-adult-female": 187.0,"*-triceratops-baby-*": 12.0,
+						"*-torosaurus-adult-male": 200.0,"*-torosaurus-adult-female": 187.0,"*-torosaurus-baby-*": 12.0,
+						"*-pentaceratops-adult-male": 140.0,"*-pentaceratops-adult-female": 132.0,"*-pentaceratops-baby-*": 9.0,
+						"*-pachyrhinosaurus-adult-male": 140.0,"*-pachyrhinosaurus-adult-female": 132.0,"*-pachyrhinosaurus-baby-*": 9.0,
+						"*-styracosaurus-adult-male": 135.0,"*-styracosaurus-adult-female": 114.0,"*-styracosaurus-baby-*": 9.0,
+						"*-centrosaurus-adult-male": 129.0,"*-centrosaurus-adult-female": 114.0,"*-centrosaurus-baby-*": 8.0,
+						"*-xenoceratops-adult-male": 140.0,"*-xenoceratops-adult-female": 132.0,"*-xenoceratops-baby-*": 9.0,
+						"*-machairoceratops-adult-male": 140.0,"*-machairoceratops-adult-female": 132.0,"*-machairoceratops-baby-*": 9.0,
+						"*-nedoceratops-adult-male": 140.0,"*-nedoceratops-adult-female": 132.0,"*-nedoceratops-baby-*": 9.0,
+						"*-sinoceratops-adult-male": 120.0,"*-sinoceratops-adult-female": 110.0,"*-sinoceratops-baby-*": 8.0,
+						"*-regaliceratops-adult-male": 120.0,"*-regaliceratops-adult-female": 110.0,"*-regaliceratops-baby-*": 8.0,
+						"*-nasutoceratops-adult-male": 100.0,"*-nasutoceratops-adult-female": 90.0,"*-nasutoceratops-baby-*": 6.0,
+						"*-leptoceratops-adult-male": 28.0,"*-leptoceratops-adult-female": 26.0,"*-leptoceratops-baby-*": 5.0,
+						"*-protoceratops-adult-male": 20.0,"*-protoceratops-adult-female": 18.0,"*-protoceratops-baby-*": 4.0,
+						"*-ajkaceratops-adult-male": 16.0,"*-ajkaceratops-adult-female": 14.0,"*-ajkaceratops-baby-*": 3.0,
                     }
 			},
             {"code": "deaddecay",
@@ -359,41 +431,68 @@
 						"type": "item",
 						"code": "game:redmeat-raw",
 						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 100,"var": 10}, "*-triceratops-baby-*": {"avg": 5,"var": 1},
-							"*-pentaceratops-adult-*": {"avg": 80,"var": 10}, "*-pentaceratops-baby-*": {"avg": 4,"var": 1},
-							"*-pachyrhinosaurus-adult-*": {"avg": 80,"var": 10}, "*-pachyrhinosaurus-baby-*": {"avg": 4,"var": 1},
-							"*-styracosaurus-adult-*": {"avg": 70,"var": 10}, "*-styracosaurus-baby-*": {"avg": 3,"var": 1},
-							"*-centrosaurus-adult-*": {"avg": 70,"var": 10}, "*-centrosaurus-baby-*": {"avg": 3,"var": 1},
-							"*-nasutoceratops-adult-*": {"avg": 60,"var": 10}, "*-nasutoceratops-baby-*": {"avg": 2,"var": 1},
+							"*-triceratops-adult-*": {"avg": 100.0,"var": 10}, "*-triceratops-baby-*": {"avg": 3.0,"var": 1},
+							"*-torosaurus-adult-*": {"avg": 100.0,"var": 10}, "*-torosaurus-baby-*": {"avg": 3.0,"var": 1},
+							"*-pentaceratops-adult-*": {"avg": 70.0,"var": 10}, "*-pentaceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-pachyrhinosaurus-adult-*": {"avg": 70.0,"var": 10}, "*-pachyrhinosaurus-baby-*": {"avg": 2.0,"var": 1},
+							"*-styracosaurus-adult-*": {"avg": 67.0,"var": 10}, "*-styracosaurus-baby-*": {"avg": 2.0,"var": 1},
+							"*-centrosaurus-adult-*": {"avg": 65.0,"var": 10}, "*-centrosaurus-baby-*": {"avg": 2.0,"var": 1},
+							"*-xenoceratops-adult-*": {"avg": 70.0,"var": 10}, "*-xenoceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-machairoceratops-adult-*": {"avg": 70.0,"var": 10}, "*-machairoceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-nedoceratops-adult-*": {"avg": 70.0,"var": 10}, "*-nedoceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-sinoceratops-adult-*": {"avg": 60.0,"var": 10}, "*-sinoceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-regaliceratops-adult-*": {"avg": 60.0,"var": 10}, "*-regaliceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-nasutoceratops-adult-*": {"avg": 55.0,"var": 10}, "*-nasutoceratops-baby-*": {"avg": 2.0,"var": 1},
+							"*-leptoceratops-adult-*": {"avg": 8.0,"var": 1}, "*-leptoceratops-baby-*": {"avg": 1.0,"var": 1},
+							"*-protoceratops-adult-*": {"avg": 6.0,"var": 1}, "*-protoceratops-baby-*": {"avg": 1.0,"var": 1},
+							"*-ajkaceratops-adult-*": {"avg": 4.0,"var": 1}, "*-ajkaceratops-baby-*": {"avg": 1.0,"var": 1},
 						}
 					},
 					{
 						"type": "item",
 						"code": "game:fat",
 						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 50,"var": 5}, "*-triceratops-baby-*": {"avg": 3,"var": 3},
-							"*-pentaceratops-adult-*": {"avg": 30,"var": 5}, "*-pentaceratops-baby-*": {"avg": 2,"var": 2},
-							"*-pachyrhinosaurus-adult-*": {"avg": 30,"var": 5}, "*-pachyrhinosaurus-baby-*": {"avg": 2,"var": 2},
-							"*-styracosaurus-adult-*": {"avg": 20,"var": 5}, "*-styracosaurus-baby-*": {"avg": 1,"var": 1},
-							"*-centrosaurus-adult-*": {"avg": 20,"var": 5}, "*-centrosaurus-baby-*": {"avg": 1,"var": 1},
-							"*-nasutoceratops-adult-*": {"avg": 10,"var": 5}, "*-nasutoceratops-baby-*": {"avg": 1,"var": 0},
+							"*-triceratops-adult-*": {"avg": 50.0,"var": 2}, "*-triceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-torosaurus-adult-*": {"avg": 50.0,"var": 2}, "*-torosaurus-baby-*": {"avg": 1.0,"var": 0},
+							"*-pentaceratops-adult-*": {"avg": 35.0,"var": 2}, "*-pentaceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-pachyrhinosaurus-adult-*": {"avg": 35.0,"var": 2}, "*-pachyrhinosaurus-baby-*": {"avg": 1.0,"var": 0},
+							"*-styracosaurus-adult-*": {"avg": 34.0,"var": 2}, "*-styracosaurus-baby-*": {"avg": 1.0,"var": 0},
+							"*-centrosaurus-adult-*": {"avg": 32.0,"var": 2}, "*-centrosaurus-baby-*": {"avg": 1.0,"var": 0},
+							"*-xenoceratops-adult-*": {"avg": 35.0,"var": 2}, "*-xenoceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-machairoceratops-adult-*": {"avg": 35.0,"var": 2}, "*-machairoceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-nedoceratops-adult-*": {"avg": 35.0,"var": 2}, "*-nedoceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-sinoceratops-adult-*": {"avg": 30.0,"var": 2}, "*-sinoceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-regaliceratops-adult-*": {"avg": 30.0,"var": 2}, "*-regaliceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-nasutoceratops-adult-*": {"avg": 27.0,"var": 2}, "*-nasutoceratops-baby-*": {"avg": 1.0,"var": 0},
+							"*-leptoceratops-adult-*": {"avg": 4.0,"var": 2}, "*-leptoceratops-baby-*": {"avg": 0.0,"var": 0},
+							"*-protoceratops-adult-*": {"avg": 2.0,"var": 2}, "*-protoceratops-baby-*": {"avg": 0.0,"var": 0},
+							"*-ajkaceratops-adult-*": {"avg": 1.0,"var": 2}, "*-ajkaceratops-baby-*": {"avg": 0.0,"var": 0},
 						}
 					},
 					{
 						"type": "item",
 						"code": "game:hide-raw-huge",
 						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 7,"var": 0}, "*-triceratops-baby-*": {"avg": 0,"var": 0},
-							"*-pentaceratops-adult-*": {"avg": 5,"var": 0}, "*-pentaceratops-baby-*": {"avg": 0,"var": 0},
-							"*-pachyrhinosaurus-adult-*": {"avg": 5,"var": 0}, "*-pachyrhinosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-styracosaurus-adult-*": {"avg": 3,"var": 0}, "*-styracosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-centrosaurus-adult-*": {"avg": 3,"var": 0}, "*-centrosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-nasutoceratops-adult-*": {"avg": 2,"var": 0}, "*-nasutoceratops-baby-*": {"avg": 0,"var": 0},
+							"*-triceratops-adult-*": {"avg": 7.0,"var": 0},
+							"*-torosaurus-adult-*": {"avg": 7.0,"var": 0},
+							"*-pentaceratops-adult-*": {"avg": 5.0,"var": 0},
+							"*-pachyrhinosaurus-adult-*": {"avg": 5.0,"var": 0},
+							"*-styracosaurus-adult-*": {"avg": 4.0,"var": 0},
+							"*-centrosaurus-adult-*": {"avg": 4.0,"var": 0},
+							"*-xenoceratops-adult-*": {"avg": 5.0,"var": 0},
+							"*-machairoceratops-adult-*": {"avg": 5.0,"var": 0},
+							"*-nedoceratops-adult-*": {"avg": 5.0,"var": 0},
+							"*-sinoceratops-adult-*": {"avg": 4.0,"var": 0},
+							"*-regaliceratops-adult-*": {"avg": 4.0,"var": 0},
+							"*-nasutoceratops-adult-*": {"avg": 4.0,"var": 0},
+							"*-leptoceratops-adult-*": {"avg": 2.0,"var": 0},
+							"*-protoceratops-adult-*": {"avg": 1.0,"var": 0},
+							"*-ajkaceratops-adult-*": {"avg": 1.0,"var": 0},
 						}
 					},
 					{
 						"type": "item",
-						"code": "game:hide-raw-medium",
+						"code": "game:hide-raw-small",
 						"quantityByType": {
 							"*-baby": {"avg": 1.0,"var": 0.0},
 							"*": {"avg": 0.0,"var": 0.0}
@@ -417,12 +516,21 @@
 				"multiplyCooldownDaysMinByType": {"*": 30},
 				"multiplyCooldownDaysMaxByType": {"*": 70},
 				"portionsEatenForMultiplyByType": {
-					"*-triceratops-*": 70,
-					"*-pentaceratops-*": 56,
-					"*-pachyrhinosaurus-*": 60,
-					"*-styracosaurus-*": 49,
-					"*-nasutoceratops-*": 49,
-					"*-centrosaurus-*": 42
+					"*-triceratops-adult-*":70.0,
+					"*-torosaurus-adult-*":70.0,
+					"*-pentaceratops-adult-*":55.0,
+					"*-pachyrhinosaurus-adult-*":55.0,
+					"*-styracosaurus-adult-*":53.0,
+					"*-centrosaurus-adult-*":52.0,
+					"*-xenoceratops-adult-*":55.0,
+					"*-machairoceratops-adult-*":55.0,
+					"*-nedoceratops-adult-*":55.0,
+					"*-sinoceratops-adult-*":49.0,
+					"*-regaliceratops-adult-*":49.0,
+					"*-nasutoceratops-adult-*":47.0,
+					"*-leptoceratops-adult-*":37.0,
+					"*-protoceratops-adult-*":33.0,
+					"*-ajkaceratops-adult-*":28.0,
 				}
 			},
             {"code": "grow",
@@ -431,12 +539,21 @@
 					"*": false
 				},
 				"hoursToGrowByType": {
-					"*-triceratops-*": 850,
-					"*-pentaceratops-*": 680,
-					"*-pachyrhinosaurus-*": 722,
-					"*-styracosaurus-*": 595,
-					"*-nasutoceratops-*": 595,
-					"*-centrosaurus-*": 510
+					"*-triceratops-*":850.0,
+					"*-torosaurus-*":850.0,
+					"*-pentaceratops-*":570.0,
+					"*-pachyrhinosaurus-*":570.0,
+					"*-styracosaurus-*":544.0,
+					"*-centrosaurus-*":518.0,
+					"*-xenoceratops-*":570.0,
+					"*-machairoceratops-*":570.0,
+					"*-nedoceratops-*":570.0,
+					"*-sinoceratops-*":476.0,
+					"*-regaliceratops-*":476.0,
+					"*-nasutoceratops-*":425.0,
+					"*-leptoceratops-*":246.0,
+					"*-protoceratops-*":170.0,
+					"*-ajkaceratops-*":94.0,
 				},
 				"adultEntityCodesByType": {
 					"*-baby-male": ["ceratopsidae:ceratopsidae-{type}-adult-male"],
@@ -451,8 +568,8 @@
 							"*-baby-*": 0.5
 						},
 						"slot": 2,"priority": 3,"accumType": "noaccum"},
-					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.5},
-					{"code": "fleeondamage","duration": 30,"slot": 1,"chanceByType": {"*-adult-*": 0,"*-baby-*": 1},"priority": 0.75,"accumType": "max","whenHealthRelBelow": 0.6},
+					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-leptoceratops-*":0,"*-protoceratops-*":0,"*-ajkaceratops-*":0,"*-adult-*": 1,"*-baby-*": 0},"priority": 1.9,"accumType": "max","whenHealthRelBelow": 0.5},
+					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-leptoceratops-*":1,"*-protoceratops-*":1,"*-ajkaceratops-*":1,"*-adult-*": 0,"*-baby-*": 1},"priority": 1.9,"accumType": "max","whenHealthRelBelow": 0.9},
 					{"code": "saturated","duration": 1200,"chance": 1,"slot": 0,"priority": 1,"accumType": "sum"},
 					{ "code": "aggressivearoundentities", "duration": 60, "chanceByType": {"*-baby-*": 0.0,"*-adult-*": 1.0}, "slot": 2, "priority": 5, "entityCodes": ["ceratopsidae:ceratopsidae-{type}-baby-male","ceratopsidae:ceratopsidae-{type}-baby-female"], "maxGeneration": 2 }
 				]
@@ -465,40 +582,80 @@
 						"code": "meleeattack",
 						"animation": "Attack",
 						"enabledByType": {
+							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
-							"lure-*", "hitch",
+							"*-baby-*":["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*",],
+							"*-leptoceratops-*":["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*",],
+							"*-protoceratops-*":["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*",],
+							"*-ajkaceratops-*":["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*",],
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","hitch",
 							"tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]},
 						"priority": 1.9,
 						"slot": 1,
 						"damageByType": {
-							"*-triceratops-adult-male": 25,"*-triceratops-adult-female": 23,"*-triceratops-baby-*": 4,
-							"*-pentaceratops-adult-male": 24,"*-pentaceratops-adult-female": 22,"*-pentaceratops-baby-*": 3.5,
-							"*-pachyrhinosaurus-adult-male": 23,"*-pachyrhinosaurus-adult-female": 21,"*-pachyrhinosaurus-baby-*": 3,
-							"*-styracosaurus-adult-male": 23,"*-styracosaurus-adult-female": 21,"*-styracosaurus-baby-*": 3,
-							"*-centrosaurus-adult-male": 23,"*-centrosaurus-adult-female": 21,"*-centrosaurus-baby-*": 3,
-							"*-nasutoceratops-adult-male": 21,"*-nasutoceratops-adult-female": 19,"*-nasutoceratops-baby-*": 2,
+							"*-triceratops-adult-male": 25.0,"*-triceratops-adult-female": 24.0,"*-triceratops-baby-*": 3,
+							"*-torosaurus-adult-male": 25.0,"*-torosaurus-adult-female": 24.0,"*-torosaurus-baby-*": 3,
+							"*-pentaceratops-adult-male": 21.7,"*-pentaceratops-adult-female": 20.7,"*-pentaceratops-baby-*": 2,
+							"*-pachyrhinosaurus-adult-male": 21.7,"*-pachyrhinosaurus-adult-female": 20.7,"*-pachyrhinosaurus-baby-*": 2,
+							"*-styracosaurus-adult-male": 23.4,"*-styracosaurus-adult-female": 22.4,"*-styracosaurus-baby-*": 2,
+							"*-centrosaurus-adult-male": 18.1,"*-centrosaurus-adult-female": 17.1,"*-centrosaurus-baby-*": 2,
+							"*-xenoceratops-adult-male": 20.7,"*-xenoceratops-adult-female": 19.7,"*-xenoceratops-baby-*": 2,
+							"*-machairoceratops-adult-male": 20.7,"*-machairoceratops-adult-female": 19.7,"*-machairoceratops-baby-*": 2,
+							"*-nedoceratops-adult-male": 20.7,"*-nedoceratops-adult-female": 20.7,"*-nedoceratops-baby-*": 2,
+							"*-sinoceratops-adult-male": 16.6,"*-sinoceratops-adult-female": 15.6,"*-sinoceratops-baby-*": 2,
+							"*-regaliceratops-adult-male": 16.6,"*-regaliceratops-adult-female": 15.6,"*-regaliceratops-baby-*": 2,
+							"*-nasutoceratops-adult-male": 15.0,"*-nasutoceratops-adult-female": 14.0,"*-nasutoceratops-baby-*": 2,
+							"*-leptoceratops-adult-male": 3,"*-leptoceratops-adult-female": 2,"*-leptoceratops-baby-*": 1,
+							"*-protoceratops-adult-male": 2.5,"*-protoceratops-adult-female": 1.5,"*-protoceratops-baby-*": 1,
+							"*-ajkaceratops-adult-male": 2,"*-ajkaceratops-adult-female": 1,"*-ajkaceratops-baby-*": 1,
 
 						},
 						"damageType": "SlashingAttack",
-						"knockbackStrengthByType": {"*-baby-*":0.0,"*-adult-*":2},
-						"damageTierByType": {"*-baby-*":1,"*":3},
+						"knockbackStrengthByType": {"*-baby-*":0.0,"*-adult-*":3},
+						"damageTierByType": {
+							"*-baby-*":1,
+							"*-triceratops-adult-*": 4.0,
+							"*-torosaurus-adult-*": 4.0,
+							"*-pentaceratops-adult-*": 3.0,
+							"*-pachyrhinosaurus-adult-*": 3.0,
+							"*-styracosaurus-adult-*": 3.0,
+							"*-centrosaurus-adult-*": 3.0,
+							"*-xenoceratops-adult-*": 3.0,
+							"*-machairoceratops-adult-*": 3.0,
+							"*-nedoceratops-adult-*": 3.0,
+							"*-sinoceratops-adult-*": 2.0,
+							"*-regaliceratops-adult-*": 2.0,
+							"*-nasutoceratops-adult-*": 2.0,
+							"*-leptoceratops-adult-*": 1.0,
+							"*-protoceratops-adult-*": 1.0,
+							"*-ajkaceratops-adult-*": 1.0,
+						},
 						"attackAngleRangeDeg": 120,
 						"mincooldown": 1250,
 						"maxcooldown": 1500,
-						"minDistByType": {"*-adult-*":4,"*":1},
-						"minVerDistByType": {"*-adult-*":3,"*":1},
+						"minDistByType": {"*-leptoceratops-*":1,"*-protoceratops-*":1,"*-ajkaceratops-*":1,"*-adult-*":4,"*":1},
+						"minVerDistByType": {"*-leptoceratops-*":1,"*-protoceratops-*":1,"*-ajkaceratops-*":1,"*-adult-*":3,"*":1},
 						"attackDurationMs": 1250,
 						"damagePlayerAtMs": 400,
 						"animationSpeed": 1.25,
 						"soundByType": {
+							"*-leptoceratops-*":"creature/roar-baby",
+							"*-protoceratops-*":"creature/roar-baby",
+							"*-ajkaceratops-*":"creature/roar-baby",
 							"*-adult-*":"creature/roar"},
 					},
 					{
 						"code": "seekentity",
 						"animation": "Charge",
+						"enabledByType": {
+							"*-baby-*": false,
+							"*-leptoceratops-*":false,
+							"*-protoceratops-*":false,
+							"*-ajkaceratops-*":false,
+							"*": true},
 						"entityCodesByType": {
+
 							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						},
 						"priority": 1.82,
@@ -506,37 +663,46 @@
 						"maxcooldown": 650,
 						"seekingRange": 8,
 						"movespeedByType": {
-							"*-adult-*": 0.04,
-							"*-baby-*": 0.015,
+							"*-leptoceratops-*":0.019,
+							"*-protoceratops-*":0.019,
+							"*-ajkaceratops-*":0.019,
+							"*-adult-*": 0.040,
+							"*-baby-*": 0.019,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 3,
 							"*": 4.0
 						},
+						"maxFollowTime":3,
 						"whenNotInEmotionState": "fleeondamage"
 					},
 					{
 						"code": "seekentity",
 						"animation": "Trot",
 						"enabledByType": {
-							"*-baby-*": false,
-							"*": true},
+							"*-baby-*": false,},
 						"entityCodesByType": {
 							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
 						"priority": 1.84,
 						"mincooldown": 6000,
 						"maxcooldown": 6500,
-						"seekingRange": 28,
+						"seekingRange": 30,
 						"movespeedByType": {
-							"*-adult-*": 0.045,
-							"*-baby-*": 0.0385,
+							"*-leptoceratops-*":0.019,
+							"*-protoceratops-*":0.019,
+							"*-ajkaceratops-*":0.019,
+							"*-adult-*": 0.040,
+							"*-baby-*": 0.019,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 5,
 							"*": 4.5
 						},
 						"soundByType": {
+							"*-leptoceratops-*":"creature/roar-baby",
+							"*-protoceratops-*":"creature/roar-baby",
+							"*-ajkaceratops-*":"creature/roar-baby",
 							"*-adult-*":"creature/roar"},
 						"whenInEmotionState": "aggressiveondamage"
 					},
@@ -545,6 +711,9 @@
 						"animation": "Trot",
 						"enabledByType": {
 							"*-baby-*": false,
+							"*-leptoceratops-*":false,
+							"*-protoceratops-*":false,
+							"*-ajkaceratops-*":false,
 							"*": true},
 						"entityCodesByType": {
 							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
@@ -552,16 +721,22 @@
 						"priority": 1.83,
 						"mincooldown": 6000,
 						"maxcooldown": 6500,
-						"seekingRange": 18,
+						"seekingRange": 15,
 						"movespeedByType": {
-							"*-adult-*": 0.045,
-							"*-baby-*": 0.0385,
+							"*-leptoceratops-*":0.019,
+							"*-protoceratops-*":0.019,
+							"*-ajkaceratops-*":0.019,
+							"*-adult-*": 0.040,
+							"*-baby-*": 0.019,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 5,
 							"*": 4.5
 						},
 						"soundByType": {
+							"*-leptoceratops-*":"creature/roar-baby",
+							"*-protoceratops-*":"creature/roar-baby",
+							"*-ajkaceratops-*":"creature/roar-baby",
 							"*-adult-*":"creature/roar"},
 						"whenInEmotionState": "aggressivearoundentities"
 					},
@@ -571,6 +746,9 @@
 						"enabledByType": {"*-adult-*": true,"*": true},
 						"entityCodesByType": {
 							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-leptoceratops-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-protoceratops-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-ajkaceratops-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 							"*": ["bell-*",
 							"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
@@ -581,7 +759,11 @@
 						},
 						"priority": 1.8,
 						"movespeedByType": {
-							"*-adult-*": 0.040,"*-baby-*": 0.019,
+							"*-leptoceratops-*":0.019,
+							"*-protoceratops-*":0.019,
+							"*-ajkaceratops-*":0.019,
+							"*-adult-*": 0.040,
+							"*-baby-*": 0.019,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 4,
@@ -596,15 +778,19 @@
 						"entityCodesByType": {
 							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
-						"priority": 2.1,
+						"priority": 1.79,
 						"movespeedByType": {
-							"*-adult-*": 0.056,"*-baby-*": 0.038,
+							"*-leptoceratops-*":0.038,
+							"*-protoceratops-*":0.038,
+							"*-ajkaceratops-*":0.038,
+							"*-adult-*": 0.056,
+							"*-baby-*": 0.038,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 5,
 							"*": 5
 						},
-						"seekingRange": 50,
+						"seekingRange": 40,
 						"whenInEmotionState": "fleeondamage"
 					},
                     {
@@ -627,9 +813,12 @@
 							"*-adult-*": "ceratopsidae-{type}-baby-{gender}",
 							"*-baby-*": "ceratopsidae-{type}-adult-female"},
 						"movespeedByType": {
+							"*-leptoceratops-*":0.038,
+							"*-protoceratops-*":0.038,
+							"*-ajkaceratops-*":0.038,
 							"*-adult-*": 0.056,
 							"*-baby-*": 0.038,
-							},
+						},
 						"maxDistanceByType": {"*-adult-*": 24,"*-baby-*": 6},
 						"searchRange": 45,
 						"animationSpeedByType": {
@@ -742,6 +931,9 @@
 						"maxcooldown": 50000,
 						"animationSpeed": 0.5,
 						"soundByType": {
+							"*-leptoceratops-*":"creature/roar-baby",
+							"*-protoceratops-*":"creature/roar-baby",
+							"*-ajkaceratops-*":"creature/roar-baby",
 							"*-adult-*": "creature/roar",
 							"*-baby-*": "creature/roar-baby"
 						},
@@ -770,7 +962,7 @@
 					},
                     {
 						"code": "wander",
-						"animation": "Trot",
+						"animation": "Walk",
 						"priority": 1.0,
 						"priorityForCancel": 1.35,
 						"chance": 0.0005,
@@ -809,14 +1001,20 @@
 					},
 					{
 						"code": "seekentity",
-						"animation": "Run",
-						"entityCodesByType": {"*-adult-*":["hitch"],},
-						"priority": 1.85,
-						"seekingRange": 10,
-						"belowTempSeekingRange": 10,
+						"animation": "Trot",
+						"enabledByType": {
+							"*-baby-*": false,
+							"*": true},
+						"entityCodesByType": {"*-adult-*":["hitch"]},
+						"priority": 1,
+						"seekingRange": 5,
+						"belowTempSeekingRange": 5,
 						"movespeedByType": {
-							"*-adult-*": 0.045,
-							"*-baby-*": 0.0385,
+							"*-leptoceratops-*":0.019,
+							"*-protoceratops-*":0.019,
+							"*-ajkaceratops-*":0.019,
+							"*-adult-*": 0.040,
+							"*-baby-*": 0.019,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 5,
@@ -844,7 +1042,7 @@
 		"worldgen":{
 			"chanceByType": {"*-baby-*": 0.0},
 			"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 },
-			"triesPerChunk": { "avg": 0.0, "var": 0},
+			"triesPerChunk": { "avg": 0.0009, "var": 0},
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
@@ -882,119 +1080,200 @@
 	},
     "spawnconditionsByType": {
 			"*-triceratops-adult-*": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 }
-				}
-			},
+						"climate": {
+							"minTemp": 15,
+							"maxTemp": 28,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-torosaurus-adult-*": {
+						"climate": {
+							"minTemp": 15,
+							"maxTemp": 28,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
 			"*-pentaceratops-adult-*": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 28,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 }
-				}
-			},
-			"*-styracosaurus-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 35,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 }
-				}
-			},
-			"*-centrosaurus-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 35,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 }
-				}
-			},
-			"*-nasutoceratops-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 38,
-					"minRain": 0.4,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 }
-				}
-			},
+						"climate": {
+							"minTemp": 12,
+							"maxTemp": 27,
+							"minRain": 0.4,
+							"maxRain": 0.8,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.9,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.3
+						},
+					},
 			"*-pachyrhinosaurus-adult-*": {
-				"climate": {
-					"minTemp": -10,
-					"maxTemp": 20,
-					"minRain": 0.5,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 1,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 }
-				}
-			},
+						"climate": {
+							"minTemp": 5,
+							"maxTemp": 20,
+							"minRain": 0.6,
+							"maxRain": 1.0,
+							"minForestOrShrubs": 0.6,
+							"maxForest": 1.0,
+							"maxShrubs": 0.5,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-styracosaurus-adult-*": {
+						"climate": {
+							"minTemp": 8,
+							"maxTemp": 22,
+							"minRain": 0.5,
+							"maxRain": 0.85,
+							"minForestOrShrubs": 0.6,
+							"maxForest": 1.0,
+							"maxShrubs": 0.4,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-centrosaurus-adult-*": {
+						"climate": {
+							"minTemp": 10,
+							"maxTemp": 24,
+							"minRain": 0.6,
+							"maxRain": 0.95,
+							"minForestOrShrubs": 0.7,
+							"maxForest": 1.0,
+							"maxShrubs": 0.5,
+							"minY": 1.0,
+							"maxY": 1.1
+						},
+					},
+			"*-xenoceratops-adult-*": {
+						"climate": {
+							"minTemp": 15,
+							"maxTemp": 28,
+							"minRain": 0.5,
+							"maxRain": 0.8,
+							"minForestOrShrubs": 0.4,
+							"maxForest": 0.7,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-machairoceratops-adult-*": {
+						"climate": {
+							"minTemp": 18,
+							"maxTemp": 30,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-nedoceratops-adult-*": {
+						"climate": {
+							"minTemp": 15,
+							"maxTemp": 28,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-sinoceratops-adult-*": {
+						"climate": {
+							"minTemp": 20,
+							"maxTemp": 30,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-regaliceratops-adult-*": {
+						"climate": {
+							"minTemp": 15,
+							"maxTemp": 28,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-nasutoceratops-adult-*": {
+						"climate": {
+							"minTemp": 20,
+							"maxTemp": 32,
+							"minRain": 0.3,
+							"maxRain": 0.7,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.7,
+							"minY": 1.0,
+							"maxY": 1.1
+						},
+					},
+			"*-leptoceratops-adult-*": {
+						"climate": {
+							"minTemp": 10,
+							"maxTemp": 25,
+							"minRain": 0.6,
+							"maxRain": 0.9,
+							"minForestOrShrubs": 0.5,
+							"maxForest": 0.8,
+							"maxShrubs": 0.6,
+							"minY": 1.0,
+							"maxY": 1.2
+						},
+					},
+			"*-protoceratops-adult-*": {
+						"climate": {
+							"minTemp": 20,
+							"maxTemp": 35,
+							"minRain": 0.1,
+							"maxRain": 0.4,
+							"minForestOrShrubs": 0.2,
+							"maxForest": 0.3,
+							"maxShrubs": 0.5,
+							"minY": 0.8,
+							"maxY": 1.0
+						},
+					},
+			"*-ajkaceratops-adult-*": {
+						"climate": {
+							"minTemp": 20,
+							"maxTemp": 32,
+							"minRain": 0.5,
+							"maxRain": 0.8,
+							"minForestOrShrubs": 0.4,
+							"maxForest": 0.7,
+							"maxShrubs": 0.6,
+							"minY": 0.9,
+							"maxY": 1.1
+						},
+					},
 			"*": {
 						"climate": {
 							"minTemp": 40,
@@ -1019,6 +1298,21 @@
     },
 
     "soundsByType": {
+		"*-leptoceratops-*":{
+			"hurt": "creature/hurt-baby",
+			"death": "creature/roar-baby",
+			"idle": "creature/idle-baby"
+		},
+		"*-protoceratops-*":{
+			"hurt": "creature/hurt-baby",
+			"death": "creature/roar-baby",
+			"idle": "creature/idle-baby"
+		},
+		"*-ajkaceratops-*":{
+			"hurt": "creature/hurt-baby",
+			"death": "creature/roar-baby",
+			"idle": "creature/idle-baby"
+		},
 		"*-adult-*":{
 			"hurt": "creature/hurt",
 			"death": "creature/death",

@@ -2,7 +2,7 @@
 	"code": "ceratopsidae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus"]},
+		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus","torosaurus","xenoceratops","machairoceratops","nedoceratops","sinoceratops","regaliceratops","leptoceratops","protoceratops","ajkaceratops",]},
 		{ "code": "age", "states": ["nest"] },
 		{ "code": "state", "states": ["incubating","mature","empty"] }
 	],
@@ -195,119 +195,245 @@
     },
     "spawnconditionsByType": {
 			"*-triceratops-nest-incubating": {
-				"climate": {
-					"minTemp": 0,
-					"maxTemp": 35,
-					"minRain": 0.15,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-pentaceratops-nest-incubating": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.10,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-styracosaurus-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.2,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-centrosaurus-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.2,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.1,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-nasutoceratops-nest-incubating": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.15,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.0,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-pachyrhinosaurus-nest-incubating": {
-				"climate": {
-					"minTemp": -10,
-					"maxTemp": 25,
-					"minRain": 0.1,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.0,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ceratopsidae-*", "maxQuantity": 1 }
-				}
-			},
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 28,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-torosaurus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 28,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-pentaceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 27,
+                        "minRain": 0.4,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.9,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.3
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-pachyrhinosaurus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 5,
+                        "maxTemp": 20,
+                        "minRain": 0.6,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-styracosaurus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 8,
+                        "maxTemp": 22,
+                        "minRain": 0.5,
+                        "maxRain": 0.85,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.4,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-centrosaurus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 10,
+                        "maxTemp": 24,
+                        "minRain": 0.6,
+                        "maxRain": 0.95,
+                        "minForestOrShrubs": 0.7,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-xenoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 28,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.4,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-machairoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 18,
+                        "maxTemp": 30,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-nedoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 28,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-sinoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 30,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-regaliceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 28,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-nasutoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 32,
+                        "minRain": 0.3,
+                        "maxRain": 0.7,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.7,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-leptoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 10,
+                        "maxTemp": 25,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.5,
+                        "maxForest": 0.8,
+                        "maxShrubs": 0.6,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-protoceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 35,
+                        "minRain": 0.1,
+                        "maxRain": 0.4,
+                        "minForestOrShrubs": 0.2,
+                        "maxForest": 0.3,
+                        "maxShrubs": 0.5,
+                        "minY": 0.8,
+                        "maxY": 1.0
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
+    "*-ajkaceratops-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 32,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.4,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.6,
+                        "minY": 0.9,
+                        "maxY": 1.1
+                    },
+                    "worldgen": {
+					"triesPerChunk": { "avg": 0.0009, "var": 0}
+					},
+                },
 		}
 	}
 }

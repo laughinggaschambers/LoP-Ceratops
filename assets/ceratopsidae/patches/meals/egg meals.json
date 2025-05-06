@@ -1,5 +1,5 @@
 [
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -18,7 +18,7 @@
     "value": {
       "type": "item",
       "code": "ceratopsidae:creature-ceratopsidae-triceratops-egg-raw",
-      "shapeElement": "bowl/egg/*", 
+      "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
   },
@@ -41,11 +41,7 @@
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -87,11 +83,7 @@
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -133,11 +125,7 @@
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -179,10 +167,7 @@
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-   {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -224,12 +209,7 @@
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -268,6 +248,384 @@
     "side": "server",
     "op": "addmerge",
     "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-pachyrhinosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-torosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-torosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-torosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-torosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-xenoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-xenoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-xenoceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-xenoceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-machairoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-machairoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-machairoceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-machairoceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-nedoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-nedoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-nedoceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-nedoceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-sinoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-sinoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-sinoceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-sinoceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-regaliceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-regaliceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-regaliceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-regaliceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-leptoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-leptoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-leptoceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-leptoceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-protoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-protoceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-protoceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-protoceratops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-ajkaceratops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-ajkaceratops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ceratopsidae:creature-ceratopsidae-ajkaceratops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/ceratopsidae:creature-ceratopsidae-ajkaceratops-egg-raw",
     "value": [ "meat", "group6" ]
   },
 ]

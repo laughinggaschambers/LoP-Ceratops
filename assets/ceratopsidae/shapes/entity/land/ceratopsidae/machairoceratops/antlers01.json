@@ -1,0 +1,327 @@
+{
+	"editor": {
+		"backDropShape": "/home/tiger/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods/LoP-Ceratops/assets/ceratopsidae/shapes/entity/land/ceratopsidae/torosaurus/adult",
+		"collapsedPaths": ",Root/Cube10/Cube2,Root/Horn5,Root/Center/Cube3,Root/Center/Cube10,Root/Cube2,Root/Cube10/Cube10,Root/Cube8",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 360,
+	"textureHeight": 360,
+	"textureSizes": {
+	},
+	"textures": {
+		"triceratops-adult": "entity/machairoceratops-adult"
+	},
+	"elements": [
+		{
+			"name": "Center",
+			"stepParentName": "Crown",
+			"from": [ 29.6, -38.0, -3.2 ],
+			"to": [ 29.6, -38.0, -3.2 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 2.6, 0.0, 4.8 ],
+			"rotationX": 180.0,
+			"rotationZ": 69.0,
+			"faces": {
+				"north": { "texture": "#triceratops-adult", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+				"east": { "texture": "#triceratops-adult", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"south": { "texture": "#triceratops-adult", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+				"west": { "texture": "#triceratops-adult", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+				"up": { "texture": "#triceratops-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#triceratops-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ -34.2, 38.9, 0.8 ],
+					"to": [ -26.1, 43.9, 8.9 ],
+					"uv": [ 27.0, 53.0 ],
+					"rotationOrigin": [ -25.8, 38.9, 0.8 ],
+					"rotationX": 3.1,
+					"rotationY": -15.0,
+					"rotationZ": 53.0,
+					"faces": {
+						"north": { "texture": "#triceratops-adult", "uv": [ 27.0, 61.0, 32.0, 69.0 ], "rotation": 90 },
+						"east": { "texture": "#triceratops-adult", "uv": [ 32.0, 61.0, 37.0, 69.0 ], "rotation": 90 },
+						"south": { "texture": "#triceratops-adult", "uv": [ 37.0, 61.0, 42.0, 69.0 ], "rotation": 90 },
+						"west": { "texture": "#triceratops-adult", "uv": [ 42.0, 61.0, 50.0, 66.0 ] },
+						"up": { "texture": "#triceratops-adult", "uv": [ 27.0, 53.0, 35.0, 61.0 ], "rotation": 90 },
+						"down": { "texture": "#triceratops-adult", "uv": [ 35.0, 53.0, 43.0, 61.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 0.8844, 2.1744, 0.8955 ],
+							"to": [ 6.8844, 9.2744, 6.8955 ],
+							"uv": [ 33.0, 59.0 ],
+							"rotationOrigin": [ 1.8844, 2.1744, 1.8955 ],
+							"rotationZ": 3.7,
+							"faces": {
+								"north": { "texture": "#triceratops-adult", "uv": [ 33.0, 65.0, 39.0, 72.0 ] },
+								"east": { "texture": "#triceratops-adult", "uv": [ 39.0, 65.0, 45.0, 72.0 ] },
+								"south": { "texture": "#triceratops-adult", "uv": [ 45.0, 65.0, 51.0, 72.0 ] },
+								"west": { "texture": "#triceratops-adult", "uv": [ 51.0, 65.0, 57.0, 72.0 ] },
+								"up": { "texture": "#triceratops-adult", "uv": [ 33.0, 59.0, 39.0, 65.0 ] },
+								"down": { "texture": "#triceratops-adult", "uv": [ 39.0, 59.0, 45.0, 65.0 ] }
+							},
+							"children": [
+								{
+									"name": "Cube4",
+									"from": [ 0.6, 5.3, 0.4 ],
+									"to": [ 5.6, 11.6, 5.4 ],
+									"uv": [ 28.0, 55.0 ],
+									"rotationOrigin": [ 3.2, 5.2, 3.0 ],
+									"rotationZ": 11.0,
+									"faces": {
+										"north": { "texture": "#triceratops-adult", "uv": [ 28.0, 60.0, 33.0, 66.0 ] },
+										"east": { "texture": "#triceratops-adult", "uv": [ 33.0, 60.0, 38.0, 66.0 ] },
+										"south": { "texture": "#triceratops-adult", "uv": [ 38.0, 60.0, 43.0, 66.0 ] },
+										"west": { "texture": "#triceratops-adult", "uv": [ 43.0, 60.0, 48.0, 66.0 ] },
+										"up": { "texture": "#triceratops-adult", "uv": [ 28.0, 55.0, 33.0, 60.0 ] },
+										"down": { "texture": "#triceratops-adult", "uv": [ 33.0, 55.0, 38.0, 60.0 ] }
+									},
+									"children": [
+										{
+											"name": "Cube5",
+											"from": [ 0.8, 3.9, 0.4 ],
+											"to": [ 4.8, 10.2, 4.4 ],
+											"uv": [ 24.0, 64.0 ],
+											"rotationOrigin": [ 3.4, 3.9, 3.0 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#triceratops-adult", "uv": [ 24.0, 68.0, 30.0, 72.0 ], "rotation": 90 },
+												"east": { "texture": "#triceratops-adult", "uv": [ 30.0, 68.0, 36.0, 72.0 ], "rotation": 90 },
+												"south": { "texture": "#triceratops-adult", "uv": [ 36.0, 68.0, 42.0, 72.0 ], "rotation": 90 },
+												"west": { "texture": "#triceratops-adult", "uv": [ 42.0, 68.0, 48.0, 72.0 ], "rotation": 90 },
+												"up": { "texture": "#triceratops-adult", "uv": [ 24.0, 64.0, 28.0, 68.0 ] },
+												"down": { "texture": "#triceratops-adult", "uv": [ 28.0, 64.0, 32.0, 68.0 ] }
+											},
+											"children": [
+												{
+													"name": "Cube6",
+													"from": [ 0.5, 3.1, 0.4 ],
+													"to": [ 3.5, 9.6, 3.4 ],
+													"uv": [ 28.0, 59.0 ],
+													"rotationOrigin": [ 3.2, 5.2, 3.0 ],
+													"rotationZ": 6.0,
+													"faces": {
+														"north": { "texture": "#triceratops-adult", "uv": [ 28.0, 62.0, 34.5, 65.0 ], "rotation": 90 },
+														"east": { "texture": "#triceratops-adult", "uv": [ 34.5, 62.0, 41.0, 65.0 ], "rotation": 90 },
+														"south": { "texture": "#triceratops-adult", "uv": [ 41.0, 62.0, 47.5, 65.0 ], "rotation": 90 },
+														"west": { "texture": "#triceratops-adult", "uv": [ 47.5, 62.0, 54.0, 65.0 ], "rotation": 90 },
+														"up": { "texture": "#triceratops-adult", "uv": [ 28.0, 59.0, 31.0, 62.0 ] },
+														"down": { "texture": "#triceratops-adult", "uv": [ 31.0, 59.0, 34.0, 62.0 ] }
+													},
+													"children": [
+														{
+															"name": "Cube7",
+															"from": [ -0.1, 5.6, 0.2 ],
+															"to": [ 2.7, 8.7, 2.8 ],
+															"uv": [ 27.0, 60.0 ],
+															"rotationOrigin": [ 1.3, 5.7, 1.6 ],
+															"rotationZ": 11.0,
+															"faces": {
+																"north": { "texture": "#triceratops-adult", "uv": [ 27.0, 62.5, 29.5, 65.5 ] },
+																"east": { "texture": "#triceratops-adult", "uv": [ 29.5, 62.5, 32.0, 65.5 ] },
+																"south": { "texture": "#triceratops-adult", "uv": [ 32.0, 62.5, 34.5, 65.5 ] },
+																"west": { "texture": "#triceratops-adult", "uv": [ 34.5, 62.5, 37.0, 65.5 ] },
+																"up": { "texture": "#triceratops-adult", "uv": [ 27.0, 60.0, 29.5, 62.5 ] },
+																"down": { "texture": "#triceratops-adult", "uv": [ 29.5, 60.0, 32.0, 62.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Cube8",
+																	"from": [ 0.2, 3.0, 0.4 ],
+																	"to": [ 2.2, 6.0, 2.4 ],
+																	"uv": [ 30.0, 54.0 ],
+																	"rotationOrigin": [ 1.7, 3.1, 1.8 ],
+																	"rotationZ": 14.0,
+																	"faces": {
+																		"north": { "texture": "#triceratops-adult", "uv": [ 30.0, 56.0, 32.0, 59.0 ] },
+																		"east": { "texture": "#triceratops-adult", "uv": [ 32.0, 56.0, 34.0, 59.0 ] },
+																		"south": { "texture": "#triceratops-adult", "uv": [ 34.0, 56.0, 36.0, 59.0 ] },
+																		"west": { "texture": "#triceratops-adult", "uv": [ 36.0, 56.0, 38.0, 59.0 ] },
+																		"up": { "texture": "#triceratops-adult", "uv": [ 30.0, 54.0, 32.0, 56.0 ] },
+																		"down": { "texture": "#triceratops-adult", "uv": [ 32.0, 54.0, 34.0, 56.0 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Cube9",
+																			"from": [ 0.3, 1.7, 0.5 ],
+																			"to": [ 1.3, 5.7, 1.5 ],
+																			"uv": [ 293.0, 47.0 ],
+																			"rotationOrigin": [ 1.8, 1.8, 1.9 ],
+																			"rotationZ": 6.0,
+																			"faces": {
+																				"north": { "texture": "#triceratops-adult", "uv": [ 293.0, 48.0, 294.0, 52.0 ] },
+																				"east": { "texture": "#triceratops-adult", "uv": [ 294.0, 48.0, 295.0, 52.0 ] },
+																				"south": { "texture": "#triceratops-adult", "uv": [ 295.0, 48.0, 296.0, 52.0 ] },
+																				"west": { "texture": "#triceratops-adult", "uv": [ 296.0, 48.0, 297.0, 52.0 ] },
+																				"up": { "texture": "#triceratops-adult", "uv": [ 293.0, 47.0, 294.0, 48.0 ] },
+																				"down": { "texture": "#triceratops-adult", "uv": [ 294.0, 47.0, 295.0, 48.0 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cube1",
+					"from": [ -34.2, 38.9, 6.8 ],
+					"to": [ -26.1, 43.9, 14.9 ],
+					"uv": [ 29.0, 60.0 ],
+					"rotationOrigin": [ -25.8, 38.9, 14.8 ],
+					"rotationX": -3.1,
+					"rotationY": 15.0,
+					"rotationZ": 53.0,
+					"faces": {
+						"north": { "texture": "#triceratops-adult", "uv": [ 29.0, 68.0, 37.0, 73.0 ], "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"east": { "texture": "#triceratops-adult", "uv": [ 37.0, 68.0, 42.0, 76.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"south": { "texture": "#triceratops-adult", "uv": [ 42.0, 68.0, 47.0, 76.0 ], "rotation": 90 },
+						"west": { "texture": "#triceratops-adult", "uv": [ 47.0, 68.0, 55.0, 73.0 ] },
+						"up": { "texture": "#triceratops-adult", "uv": [ 29.0, 60.0, 37.0, 68.0 ] },
+						"down": { "texture": "#triceratops-adult", "uv": [ 37.0, 60.0, 45.0, 68.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cube10",
+							"from": [ 0.8844, 2.1744, 1.1045 ],
+							"to": [ 6.8844, 9.2744, 7.1045 ],
+							"uv": [ 28.0, 57.0 ],
+							"rotationOrigin": [ 1.8844, 2.1744, 2.1045 ],
+							"rotationZ": 3.7,
+							"faces": {
+								"north": { "texture": "#triceratops-adult", "uv": [ 28.0, 63.0, 34.0, 70.0 ] },
+								"east": { "texture": "#triceratops-adult", "uv": [ 34.0, 63.0, 40.0, 70.0 ] },
+								"south": { "texture": "#triceratops-adult", "uv": [ 40.0, 63.0, 47.0, 69.0 ], "rotation": 90 },
+								"west": { "texture": "#triceratops-adult", "uv": [ 47.0, 63.0, 53.0, 70.0 ] },
+								"up": { "texture": "#triceratops-adult", "uv": [ 28.0, 57.0, 34.0, 63.0 ] },
+								"down": { "texture": "#triceratops-adult", "uv": [ 34.0, 57.0, 40.0, 63.0 ] }
+							},
+							"children": [
+								{
+									"name": "Cube101",
+									"from": [ 0.6, 5.3, 0.4 ],
+									"to": [ 5.6, 11.6, 5.4 ],
+									"uv": [ 33.0, 59.0 ],
+									"rotationOrigin": [ 3.2, 5.2, 3.0 ],
+									"rotationZ": 11.0,
+									"faces": {
+										"north": { "texture": "#triceratops-adult", "uv": [ 33.0, 64.0, 38.0, 70.0 ] },
+										"east": { "texture": "#triceratops-adult", "uv": [ 38.0, 64.0, 43.0, 70.0 ] },
+										"south": { "texture": "#triceratops-adult", "uv": [ 43.0, 64.0, 49.0, 69.0 ], "rotation": 90 },
+										"west": { "texture": "#triceratops-adult", "uv": [ 49.0, 64.0, 54.0, 70.0 ] },
+										"up": { "texture": "#triceratops-adult", "uv": [ 33.0, 59.0, 38.0, 64.0 ] },
+										"down": { "texture": "#triceratops-adult", "uv": [ 38.0, 59.0, 43.0, 64.0 ] }
+									},
+									"children": [
+										{
+											"name": "Cube102",
+											"from": [ 0.8, 3.9, 0.4 ],
+											"to": [ 4.8, 10.2, 4.4 ],
+											"uv": [ 22.0, 60.0 ],
+											"rotationOrigin": [ 3.4, 3.9, 3.0 ],
+											"rotationZ": 14.0,
+											"faces": {
+												"north": { "texture": "#triceratops-adult", "uv": [ 22.0, 64.0, 28.0, 68.0 ], "rotation": 90 },
+												"east": { "texture": "#triceratops-adult", "uv": [ 28.0, 64.0, 34.0, 68.0 ], "rotation": 90 },
+												"south": { "texture": "#triceratops-adult", "uv": [ 34.0, 64.0, 40.0, 68.0 ], "rotation": 90 },
+												"west": { "texture": "#triceratops-adult", "uv": [ 40.0, 64.0, 46.0, 68.0 ], "rotation": 90 },
+												"up": { "texture": "#triceratops-adult", "uv": [ 22.0, 60.0, 26.0, 64.0 ] },
+												"down": { "texture": "#triceratops-adult", "uv": [ 26.0, 60.0, 30.0, 64.0 ] }
+											},
+											"children": [
+												{
+													"name": "Cube103",
+													"from": [ 0.5, 3.1, 0.4 ],
+													"to": [ 3.5, 9.6, 3.4 ],
+													"uv": [ 32.0, 65.0 ],
+													"rotationOrigin": [ 3.2, 5.2, 3.0 ],
+													"rotationZ": 6.0,
+													"faces": {
+														"north": { "texture": "#triceratops-adult", "uv": [ 32.0, 68.0, 38.5, 71.0 ], "rotation": 90 },
+														"east": { "texture": "#triceratops-adult", "uv": [ 38.5, 68.0, 45.0, 71.0 ], "rotation": 90 },
+														"south": { "texture": "#triceratops-adult", "uv": [ 45.0, 68.0, 51.5, 71.0 ], "rotation": 90 },
+														"west": { "texture": "#triceratops-adult", "uv": [ 51.5, 68.0, 58.0, 71.0 ], "rotation": 90 },
+														"up": { "texture": "#triceratops-adult", "uv": [ 32.0, 65.0, 35.0, 68.0 ] },
+														"down": { "texture": "#triceratops-adult", "uv": [ 35.0, 65.0, 38.0, 68.0 ] }
+													},
+													"children": [
+														{
+															"name": "Cube1023",
+															"from": [ -0.1, 5.6, 0.2 ],
+															"to": [ 2.7, 8.7, 2.8 ],
+															"uv": [ 33.0, 58.0 ],
+															"rotationOrigin": [ 1.3, 5.7, 1.6 ],
+															"rotationZ": 11.0,
+															"faces": {
+																"north": { "texture": "#triceratops-adult", "uv": [ 33.0, 60.5, 35.5, 63.5 ] },
+																"east": { "texture": "#triceratops-adult", "uv": [ 35.5, 60.5, 38.0, 63.5 ] },
+																"south": { "texture": "#triceratops-adult", "uv": [ 38.0, 60.5, 40.5, 63.5 ] },
+																"west": { "texture": "#triceratops-adult", "uv": [ 40.5, 60.5, 43.0, 63.5 ] },
+																"up": { "texture": "#triceratops-adult", "uv": [ 33.0, 58.0, 35.5, 60.5 ] },
+																"down": { "texture": "#triceratops-adult", "uv": [ 35.5, 58.0, 38.0, 60.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Cube104",
+																	"from": [ 0.2, 3.0, 0.4 ],
+																	"to": [ 2.2, 6.0, 2.4 ],
+																	"uv": [ 30.0, 55.0 ],
+																	"rotationOrigin": [ 1.7, 3.1, 1.8 ],
+																	"rotationZ": 14.0,
+																	"faces": {
+																		"north": { "texture": "#triceratops-adult", "uv": [ 30.0, 57.0, 32.0, 60.0 ] },
+																		"east": { "texture": "#triceratops-adult", "uv": [ 32.0, 57.0, 34.0, 60.0 ] },
+																		"south": { "texture": "#triceratops-adult", "uv": [ 34.0, 57.0, 36.0, 60.0 ] },
+																		"west": { "texture": "#triceratops-adult", "uv": [ 36.0, 57.0, 38.0, 60.0 ] },
+																		"up": { "texture": "#triceratops-adult", "uv": [ 30.0, 55.0, 32.0, 57.0 ] },
+																		"down": { "texture": "#triceratops-adult", "uv": [ 32.0, 55.0, 34.0, 57.0 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Cube105",
+																			"from": [ 0.3, 1.7, 0.5 ],
+																			"to": [ 1.3, 5.7, 1.5 ],
+																			"uv": [ 293.0, 46.0 ],
+																			"rotationOrigin": [ 1.8, 1.8, 1.9 ],
+																			"rotationZ": 6.0,
+																			"faces": {
+																				"north": { "texture": "#triceratops-adult", "uv": [ 293.0, 47.0, 294.0, 51.0 ] },
+																				"east": { "texture": "#triceratops-adult", "uv": [ 294.0, 47.0, 295.0, 51.0 ] },
+																				"south": { "texture": "#triceratops-adult", "uv": [ 295.0, 47.0, 296.0, 51.0 ] },
+																				"west": { "texture": "#triceratops-adult", "uv": [ 296.0, 47.0, 297.0, 51.0 ] },
+																				"up": { "texture": "#triceratops-adult", "uv": [ 293.0, 46.0, 294.0, 47.0 ] },
+																				"down": { "texture": "#triceratops-adult", "uv": [ 294.0, 46.0, 295.0, 47.0 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

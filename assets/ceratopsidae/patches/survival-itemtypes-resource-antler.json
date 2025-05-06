@@ -213,100 +213,6 @@
 
 
 
-
-
-
-
-  {
-    "op": "addmerge",
-    "path": "/tpHandTransformByType/antler-pachyrhinosaurus-*",
-    "value": {
-      "translation": {"x": -1,"y": 0.25,"z": -0.5},
-      "rotation": {"x": 0,"y": 180,"z": 0},
-      "origin": {"x": 0,"y": -0.5,"z": 0},
-      "scale": 0.25
-    },
-    "file": "game:itemtypes/resource/antler.json",
-    "side": "Server"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/onAntlerMountTransformByType/antler-pachyrhinosaurus-*",
-    "value": {
-      "translation": {"x": 0.25,"y": -0.5,"z": -0.05},
-      "rotation": {"x": 0,"y": 0,"z": -14},
-      "origin": {"x": 0,"y": 0,"z": 0.25},
-      "scaleXyz": {"x": -1,"y": 1,"z": 1}
-    },
-    "file": "game:itemtypes/resource/antler.json",
-    "side": "Server"
-  },
-  {
-    "op": "addmerge",
-    "path": "/groundTransformByType/antler-pachyrhinosaurus-*",
-    "value": {
-      "translation": {"x": 0,"y": -0.06,"z": 0},
-      "rotation": {"x": 0,"y": 0,"z": -51},
-      "origin": {"x": 0.5,"y": 0.6,"z": 0.5},
-      "scale": 1
-    },
-    "file": "game:itemtypes/resource/antler.json",
-    "side": "Server"
-  },
-  {
-    "op": "addmerge",
-    "path": "/guiTransformByType/antler-pachyrhinosaurus-*",
-    "value": {
-      "translation": {"x": 0,"y": 0,"z": 0},
-      "rotation": {"x": 90,"y": 90,"z": 0},
-      "origin": {"x": -0.5,"y": 1.0,"z": 0},
-      "scaleXyz": {"x": 0.66,"y": 0.66,"z": 0.66}
-    },
-    "file": "game:itemtypes/resource/antler.json",
-    "side": "Server"
-  },
-  {
-    "op": "addmerge",
-    "path": "/shapeByType/antler-pachyrhinosaurus-*",
-    "value": {
-      "base": "ceratopsidae:entity/land/ceratopsidae/pachyrhinosaurus/antlers{size}"
-    },
-    "file": "game:itemtypes/resource/antler.json",
-    "side": "Server"
-  },
-  {
-    "op": "addmerge",
-    "path": "/variantgroups/0/states/-",
-    "value": "pachyrhinosaurus",
-    "file": "game:itemtypes/resource/antler.json",
-    "side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-02","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-03","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-04","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-05","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-06","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-07","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-08","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-  {
-    "op": "addmerge","path": "/skipVariants/-","value": "antler-pachyrhinosaurus-09","file": "game:itemtypes/resource/antler.json","side": "Server"
-  },
-
-
   {
     "op": "addmerge",
     "path": "/tpHandTransformByType/antler-nasutoceratops-*",
@@ -395,6 +301,466 @@
   {
     "op": "addmerge","path": "/skipVariants/-","value": "antler-nasutoceratops-09","file": "game:itemtypes/resource/antler.json","side": "Server"
   },
+
+
+
+
+  {
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/antler-torosaurus-*",
+    "value": {
+      "translation": {"x": -1,"y": 0.25,"z": -0.5},
+      "rotation": {"x": 0,"y": 180,"z": 0},
+      "origin": {"x": 0,"y": -0.5,"z": 0},
+      "scale": 0.25
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onAntlerMountTransformByType/antler-torosaurus-*",
+    "value": {
+      "translation": {"x": 0.25,"y": -0.5,"z": -0.05},
+      "rotation": {"x": 0,"y": 0,"z": -14},
+      "origin": {"x": 0,"y": 0,"z": 0.25},
+      "scale": {"x": -1,"y": 1,"z": 1}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/groundTransformByType/antler-torosaurus-*",
+    "value": {
+      "translation": {"x": 0,"y": -0.06,"z": 0},
+      "rotation": {"x": 0,"y": 0,"z": -51},
+      "origin": {"x": 0.5,"y": 0.6,"z": 0.5},
+      "scale": 1
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/guiTransformByType/antler-torosaurus-*",
+    "value": {
+      "translation": {"x": 0,"y": 0,"z": 0},
+      "rotation": {"x": 90,"y": 90,"z": 0},
+      "origin": {"x": -0.5,"y": 1.0,"z": 0},
+      "scaleXyz": {"x": 0.66,"y": 0.66,"z": 0.66}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/shapeByType/antler-torosaurus-*",
+    "value": {
+      "base": "ceratopsidae:entity/land/ceratopsidae/torosaurus/antlers{size}"
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "torosaurus",
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-02","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-03","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-04","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-05","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-06","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-07","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-08","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-torosaurus-09","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+
+
+   {
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/antler-regaliceratops-*",
+    "value": {
+      "translation": {"x": -1,"y": 0.25,"z": -0.5},
+      "rotation": {"x": 0,"y": 180,"z": 0},
+      "origin": {"x": 0,"y": -0.5,"z": 0},
+      "scale": 0.25
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onAntlerMountTransformByType/antler-regaliceratops-*",
+    "value": {
+      "translation": {"x": 0.25,"y": -0.5,"z": -0.05},
+      "rotation": {"x": 0,"y": 0,"z": -14},
+      "origin": {"x": 0,"y": 0,"z": 0.25},
+      "scale": {"x": -1,"y": 1,"z": 1}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/groundTransformByType/antler-regaliceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": -0.06,"z": 0},
+      "rotation": {"x": 0,"y": 0,"z": -51},
+      "origin": {"x": 0.5,"y": 0.6,"z": 0.5},
+      "scale": 1
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/guiTransformByType/antler-regaliceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": 0,"z": 0},
+      "rotation": {"x": 90,"y": 90,"z": 0},
+      "origin": {"x": -0.5,"y": 1.0,"z": 0},
+      "scaleXyz": {"x": 0.66,"y": 0.66,"z": 0.66}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/shapeByType/antler-regaliceratops-*",
+    "value": {
+      "base": "ceratopsidae:entity/land/ceratopsidae/regaliceratops/antlers{size}"
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "regaliceratops",
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-02","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-03","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-04","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-05","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-06","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-07","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-08","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-regaliceratops-09","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+
+
+   {
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/antler-nedoceratops-*",
+    "value": {
+      "translation": {"x": -1,"y": 0.25,"z": -0.5},
+      "rotation": {"x": 0,"y": 180,"z": 0},
+      "origin": {"x": 0,"y": -0.5,"z": 0},
+      "scale": 0.25
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onAntlerMountTransformByType/antler-nedoceratops-*",
+    "value": {
+      "translation": {"x": 0.25,"y": -0.5,"z": -0.05},
+      "rotation": {"x": 0,"y": 0,"z": -14},
+      "origin": {"x": 0,"y": 0,"z": 0.25},
+      "scale": {"x": -1,"y": 1,"z": 1}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/groundTransformByType/antler-nedoceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": -0.06,"z": 0},
+      "rotation": {"x": 0,"y": 0,"z": -51},
+      "origin": {"x": 0.5,"y": 0.6,"z": 0.5},
+      "scale": 1
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/guiTransformByType/antler-nedoceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": 0,"z": 0},
+      "rotation": {"x": 90,"y": 90,"z": 0},
+      "origin": {"x": -0.5,"y": 1.0,"z": 0},
+      "scaleXyz": {"x": 0.66,"y": 0.66,"z": 0.66}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/shapeByType/antler-nedoceratops-*",
+    "value": {
+      "base": "ceratopsidae:entity/land/ceratopsidae/nedoceratops/antlers{size}"
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "nedoceratops",
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-02","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-03","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-04","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-05","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-06","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-07","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-08","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-nedoceratops-09","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+
+
+   {
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/antler-xenoceratops-*",
+    "value": {
+      "translation": {"x": -1,"y": 0.25,"z": -0.5},
+      "rotation": {"x": 0,"y": 180,"z": 0},
+      "origin": {"x": 0,"y": -0.5,"z": 0},
+      "scale": 0.25
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onAntlerMountTransformByType/antler-xenoceratops-*",
+    "value": {
+      "translation": {"x": 0.25,"y": -0.5,"z": -0.05},
+      "rotation": {"x": 0,"y": 0,"z": -14},
+      "origin": {"x": 0,"y": 0,"z": 0.25},
+      "scale": {"x": -1,"y": 1,"z": 1}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/groundTransformByType/antler-xenoceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": -0.06,"z": 0},
+      "rotation": {"x": 0,"y": 0,"z": -51},
+      "origin": {"x": 0.5,"y": 0.6,"z": 0.5},
+      "scale": 1
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/guiTransformByType/antler-xenoceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": 0,"z": 0},
+      "rotation": {"x": 90,"y": 90,"z": 0},
+      "origin": {"x": -0.5,"y": 1.0,"z": 0},
+      "scaleXyz": {"x": 0.66,"y": 0.66,"z": 0.66}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/shapeByType/antler-xenoceratops-*",
+    "value": {
+      "base": "ceratopsidae:entity/land/ceratopsidae/xenoceratops/antlers{size}"
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "xenoceratops",
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-02","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-03","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-04","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-05","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-06","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-07","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-08","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-xenoceratops-09","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+
+
+
+   {
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/antler-machairoceratops-*",
+    "value": {
+      "translation": {"x": -1,"y": 0.25,"z": -0.5},
+      "rotation": {"x": 0,"y": 180,"z": 0},
+      "origin": {"x": 0,"y": -0.5,"z": 0},
+      "scale": 0.25
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onAntlerMountTransformByType/antler-machairoceratops-*",
+    "value": {
+      "translation": {"x": 0.25,"y": -0.5,"z": -0.05},
+      "rotation": {"x": 0,"y": 0,"z": -14},
+      "origin": {"x": 0,"y": 0,"z": 0.25},
+      "scale": {"x": -1,"y": 1,"z": 1}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/groundTransformByType/antler-machairoceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": -0.06,"z": 0},
+      "rotation": {"x": 0,"y": 0,"z": -51},
+      "origin": {"x": 0.5,"y": 0.6,"z": 0.5},
+      "scale": 1
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/guiTransformByType/antler-machairoceratops-*",
+    "value": {
+      "translation": {"x": 0,"y": 0,"z": 0},
+      "rotation": {"x": 90,"y": 90,"z": 0},
+      "origin": {"x": -0.5,"y": 1.0,"z": 0},
+      "scaleXyz": {"x": 0.66,"y": 0.66,"z": 0.66}
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/shapeByType/antler-machairoceratops-*",
+    "value": {
+      "base": "ceratopsidae:entity/land/ceratopsidae/machairoceratops/antlers{size}"
+    },
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "machairoceratops",
+    "file": "game:itemtypes/resource/antler.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-02","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-03","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-04","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-05","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-06","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-07","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-08","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+  {
+    "op": "addmerge","path": "/skipVariants/-","value": "antler-machairoceratops-09","file": "game:itemtypes/resource/antler.json","side": "Server"
+  },
+
+
+
+
+
+
+
 
   {
     "op": "addmerge",

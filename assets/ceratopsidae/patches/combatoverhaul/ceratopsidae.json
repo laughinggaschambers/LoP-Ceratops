@@ -11,7 +11,7 @@
         "Torso": ["Neck","Neck2","Torso","Body","Body Back","Tail","Tail2","Tail3","Tail4","Tail5",],
         "Head": ["Head","Head6","Head7","Lower Jaw","Eyes"],
         "Arm": [],
-        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot R"],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R"],
         "Critical": ["EyeR","EyeL","Brain","Lungs","Heart"],
         "Resistant": ["Beak","Beak2","Lower Beak","Head3","Head2","Head4","Head15","Crown38","Crown35","Crown5","Crown2","Crown3","Crown4","Crown9","Crown10","Crown12","Crown15","Crown33","Crown32","Crown34","Crown31",]
       },
@@ -30,7 +30,7 @@
         "Torso": ["Neck","Neck2","Torso","Body","Body Back","Tail","Tail2","Tail3","Tail4","Tail5",],
         "Head": ["Head","Head6","Head7","Lower Jaw","Eyes"],
         "Arm": [],
-        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot R"],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R"],
         "Critical": ["EyeR","EyeL","Brain","Lungs","Heart"],
         "Resistant": ["Beak","Beak2","Lower Beak","Head3","Head2","Head4","Head15","Crown38","Crown35","Crown5","Crown2","Crown3","Crown4","Crown9","Crown10","Crown12","Crown15","Crown33","Crown32","Crown34","Crown31",]
       },
@@ -66,7 +66,7 @@
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
         "HeadDamageMultiplier": 2.5,
-        "CriticalDamageMultiplier": 25,
+        "CriticalDamageMultiplier": 5,
         "DefaultResists": {"BluntAttack": 6, "SlashingAttack": 4, "PiercingAttack": 0}
       }
     }

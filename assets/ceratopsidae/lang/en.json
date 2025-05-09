@@ -56,6 +56,21 @@
   "game:prefixandcreature-ceratopsidaetriceratopsnestempty": "an empty triceratops nest",
   "game:prefixandcreature-ceratopsidaetriceratopsegg": "a triceratops egg",
 
+  "item-egg-triceratops": "Triceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-triceratops": "Cracked Triceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-triceratops": "Triceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-triceratops": "Triceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-triceratops-insturmentalcase": "Triceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-triceratops": "Triceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-triceratops": "Triceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-triceratops": "Liquid triceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-triceratops": "liquid Triceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-triceratops-insturmentalcase": "liquid Triceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-triceratops": "Liquid Triceratops egg",
+  "game:incontainer-item-eggyolkfullportion-triceratops": "Liquid Triceratops egg",
+
   "item-creature-ceratopsidae-pentaceratops-adult-male": "Pentaceratops (Male)",
   "item-creature-ceratopsidae-pentaceratops-adult-female": "Pentaceratops (Female)",
   "item-creature-ceratopsidae-pentaceratops-baby-male": "Pentaceratops (Juvenile Male)",
@@ -81,6 +96,21 @@
   "game:prefixandcreature-ceratopsidaepentaceratopsnestmature": "a pentaceratops nest",
   "game:prefixandcreature-ceratopsidaepentaceratopsnestempty": "an empty pentaceratops nest",
   "game:prefixandcreature-ceratopsidaepentaceratopsegg": "a pentaceratops egg",
+
+  "item-egg-pentaceratops": "Pentaceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-pentaceratops": "Cracked Pentaceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-pentaceratops": "Pentaceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-pentaceratops": "Pentaceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-pentaceratops-insturmentalcase": "Pentaceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-pentaceratops": "Pentaceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-pentaceratops": "Pentaceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-pentaceratops": "Liquid pentaceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-pentaceratops": "liquid Pentaceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-pentaceratops-insturmentalcase": "liquid Pentaceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-pentaceratops": "Liquid Pentaceratops egg",
+  "game:incontainer-item-eggyolkfullportion-pentaceratops": "Liquid Pentaceratops egg",
 
   "item-creature-ceratopsidae-styracosaurus-adult-male": "Styracosaurus (Male)",
   "item-creature-ceratopsidae-styracosaurus-adult-female": "Styracosaurus (Female)",
@@ -108,6 +138,21 @@
   "game:prefixandcreature-ceratopsidaestyracosaurusnestempty": "an empty styracosaurus nest",
   "game:prefixandcreature-ceratopsidaestyracosaurusegg": "a styracosaurus egg",
 
+  "item-egg-styracosaurus": "Styracosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-styracosaurus": "Cracked Styracosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-styracosaurus": "Styracosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-styracosaurus": "Styracosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-styracosaurus-insturmentalcase": "Styracosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-styracosaurus": "Styracosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-styracosaurus": "Styracosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-styracosaurus": "Liquid styracosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-styracosaurus": "liquid Styracosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-styracosaurus-insturmentalcase": "liquid Styracosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-styracosaurus": "Liquid Styracosaurus egg",
+  "game:incontainer-item-eggyolkfullportion-styracosaurus": "Liquid Styracosaurus egg",
+
   "item-creature-ceratopsidae-centrosaurus-adult-male": "Centrosaurus (Male)",
   "item-creature-ceratopsidae-centrosaurus-adult-female": "Centrosaurus (Female)",
   "item-creature-ceratopsidae-centrosaurus-baby-male": "Centrosaurus (Juvenile Male)",
@@ -133,6 +178,21 @@
   "game:prefixandcreature-ceratopsidaecentrosaurusnestmature": "a centrosaurus nest",
   "game:prefixandcreature-ceratopsidaecentrosaurusnestempty": "an empty centrosaurus nest",
   "game:prefixandcreature-ceratopsidaecentrosaurusegg": "a centrosaurus egg",
+
+  "item-egg-centrosaurus": "Centrosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-centrosaurus": "Cracked Centrosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-centrosaurus": "Centrosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-centrosaurus": "Centrosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-centrosaurus-insturmentalcase": "Centrosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-centrosaurus": "Centrosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-centrosaurus": "Centrosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-centrosaurus": "Liquid centrosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-centrosaurus": "liquid Centrosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-centrosaurus-insturmentalcase": "liquid Centrosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-centrosaurus": "Liquid Centrosaurus egg",
+  "game:incontainer-item-eggyolkfullportion-centrosaurus": "Liquid Centrosaurus egg",
 
   "item-creature-ceratopsidae-nasutoceratops-adult-male": "Nasutoceratops (Male)",
   "item-creature-ceratopsidae-nasutoceratops-adult-female": "Nasutoceratops (Female)",
@@ -160,6 +220,21 @@
   "game:prefixandcreature-ceratopsidaenasutoceratopsnestempty": "an empty nasutoceratops nest",
   "game:prefixandcreature-ceratopsidaenasutoceratopsegg": "a nasutoceratops egg",
 
+  "item-egg-nasutoceratops": "Nasutoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-nasutoceratops": "Cracked Nasutoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-nasutoceratops": "Nasutoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-nasutoceratops": "Nasutoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-nasutoceratops-insturmentalcase": "Nasutoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-nasutoceratops": "Nasutoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-nasutoceratops": "Nasutoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-nasutoceratops": "Liquid nasutoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-nasutoceratops": "liquid Nasutoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-nasutoceratops-insturmentalcase": "liquid Nasutoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-nasutoceratops": "Liquid Nasutoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-nasutoceratops": "Liquid Nasutoceratops egg",
+
   "item-creature-ceratopsidae-pachyrhinosaurus-adult-male": "Pachyrhinosaurus (Male)",
   "item-creature-ceratopsidae-pachyrhinosaurus-adult-female": "Pachyrhinosaurus (Female)",
   "item-creature-ceratopsidae-pachyrhinosaurus-baby-male": "Pachyrhinosaurus (Juvenile Male)",
@@ -186,7 +261,22 @@
   "game:prefixandcreature-ceratopsidaepachyrhinosaurusnestempty": "an empty pachyrhinosaurus nest",
   "game:prefixandcreature-ceratopsidaepachyrhinosaurusegg": "a pachyrhinosaurus egg",
 
-    "item-creature-ceratopsidae-torosaurus-adult-male": "Torosaurus (Male)",
+  "item-egg-pachyrhinosaurus": "Pachyrhinosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-pachyrhinosaurus": "Cracked Pachyrhinosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-pachyrhinosaurus": "Pachyrhinosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-pachyrhinosaurus": "Pachyrhinosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-pachyrhinosaurus-insturmentalcase": "Pachyrhinosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-pachyrhinosaurus": "Pachyrhinosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-pachyrhinosaurus": "Pachyrhinosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-pachyrhinosaurus": "Liquid pachyrhinosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-pachyrhinosaurus": "liquid Pachyrhinosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-pachyrhinosaurus-insturmentalcase": "liquid Pachyrhinosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-pachyrhinosaurus": "Liquid Pachyrhinosaurus egg",
+  "game:incontainer-item-eggyolkfullportion-pachyrhinosaurus": "Liquid Pachyrhinosaurus egg",
+
+  "item-creature-ceratopsidae-torosaurus-adult-male": "Torosaurus (Male)",
   "item-creature-ceratopsidae-torosaurus-adult-female": "Torosaurus (Female)",
   "item-creature-ceratopsidae-torosaurus-baby-male": "Torosaurus (Juvenile Male)",
   "item-creature-ceratopsidae-torosaurus-baby-female": "Torosaurus (Juvenile Female)",
@@ -211,6 +301,21 @@
   "game:prefixandcreature-ceratopsidaetorosaurusnestmature": "a torosaurus nest",
   "game:prefixandcreature-ceratopsidaetorosaurusnestempty": "an empty torosaurus nest",
   "game:prefixandcreature-ceratopsidaetorosaurusegg": "a torosaurus egg",
+
+  "item-egg-torosaurus": "Torosaurus Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-torosaurus": "Cracked Torosaurus Egg",
+
+  "aculinaryartillery:item-eggyolkportion-torosaurus": "Torosaurus egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-torosaurus": "Torosaurus egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-torosaurus-insturmentalcase": "Torosaurus egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-torosaurus": "Torosaurus egg yolk",
+  "game:incontainer-item-eggyolkportion-torosaurus": "Torosaurus egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-torosaurus": "Liquid torosaurus egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-torosaurus": "liquid Torosaurus egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-torosaurus-insturmentalcase": "liquid Torosaurus egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-torosaurus": "Liquid Torosaurus egg",
+  "game:incontainer-item-eggyolkfullportion-torosaurus": "Liquid Torosaurus egg",
 
   "item-creature-ceratopsidae-xenoceratops-adult-male": "Xenoceratops (Male)",
   "item-creature-ceratopsidae-xenoceratops-adult-female": "Xenoceratops (Female)",
@@ -238,6 +343,21 @@
   "game:prefixandcreature-ceratopsidaexenoceratopsnestempty": "an empty xenoceratops nest",
   "game:prefixandcreature-ceratopsidaexenoceratopsegg": "a xenoceratops egg",
 
+  "item-egg-xenoceratops": "Xenoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-xenoceratops": "Cracked Xenoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-xenoceratops": "Xenoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-xenoceratops": "Xenoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-xenoceratops-insturmentalcase": "Xenoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-xenoceratops": "Xenoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-xenoceratops": "Xenoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-xenoceratops": "Liquid xenoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-xenoceratops": "liquid Xenoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-xenoceratops-insturmentalcase": "liquid Xenoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-xenoceratops": "Liquid Xenoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-xenoceratops": "Liquid Xenoceratops egg",
+
   "item-creature-ceratopsidae-machairoceratops-adult-male": "Machairoceratops (Male)",
   "item-creature-ceratopsidae-machairoceratops-adult-female": "Machairoceratops (Female)",
   "item-creature-ceratopsidae-machairoceratops-baby-male": "Machairoceratops (Juvenile Male)",
@@ -263,6 +383,21 @@
   "game:prefixandcreature-ceratopsidaemachairoceratopsnestmature": "a machairoceratops nest",
   "game:prefixandcreature-ceratopsidaemachairoceratopsnestempty": "an empty machairoceratops nest",
   "game:prefixandcreature-ceratopsidaemachairoceratopsegg": "a machairoceratops egg",
+
+  "item-egg-machairoceratops": "Machairoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-machairoceratops": "Cracked Machairoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-machairoceratops": "Machairoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-machairoceratops": "Machairoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-machairoceratops-insturmentalcase": "Machairoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-machairoceratops": "Machairoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-machairoceratops": "Machairoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-machairoceratops": "Liquid machairoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-machairoceratops": "liquid Machairoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-machairoceratops-insturmentalcase": "liquid Machairoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-machairoceratops": "Liquid Machairoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-machairoceratops": "Liquid Machairoceratops egg",
 
   "item-creature-ceratopsidae-nedoceratops-adult-male": "Nedoceratops (Male)",
   "item-creature-ceratopsidae-nedoceratops-adult-female": "Nedoceratops (Female)",
@@ -290,6 +425,21 @@
   "game:prefixandcreature-ceratopsidaenedoceratopsnestempty": "an empty nedoceratops nest",
   "game:prefixandcreature-ceratopsidaenedoceratopsegg": "a nedoceratops egg",
 
+  "item-egg-nedoceratops": "Nedoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-nedoceratops": "Cracked Nedoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-nedoceratops": "Nedoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-nedoceratops": "Nedoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-nedoceratops-insturmentalcase": "Nedoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-nedoceratops": "Nedoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-nedoceratops": "Nedoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-nedoceratops": "Liquid nedoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-nedoceratops": "liquid Nedoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-nedoceratops-insturmentalcase": "liquid Nedoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-nedoceratops": "Liquid Nedoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-nedoceratops": "Liquid Nedoceratops egg",
+
   "item-creature-ceratopsidae-sinoceratops-adult-male": "Sinoceratops (Male)",
   "item-creature-ceratopsidae-sinoceratops-adult-female": "Sinoceratops (Female)",
   "item-creature-ceratopsidae-sinoceratops-baby-male": "Sinoceratops (Juvenile Male)",
@@ -315,6 +465,21 @@
   "game:prefixandcreature-ceratopsidaesinoceratopsnestmature": "a sinoceratops nest",
   "game:prefixandcreature-ceratopsidaesinoceratopsnestempty": "an empty sinoceratops nest",
   "game:prefixandcreature-ceratopsidaesinoceratopsegg": "a sinoceratops egg",
+
+  "item-egg-sinoceratops": "Sinoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-sinoceratops": "Cracked Sinoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-sinoceratops": "Sinoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-sinoceratops": "Sinoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-sinoceratops-insturmentalcase": "Sinoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-sinoceratops": "Sinoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-sinoceratops": "Sinoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-sinoceratops": "Liquid sinoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-sinoceratops": "liquid Sinoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-sinoceratops-insturmentalcase": "liquid Sinoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-sinoceratops": "Liquid Sinoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-sinoceratops": "Liquid Sinoceratops egg",
 
   "item-creature-ceratopsidae-regaliceratops-adult-male": "Regaliceratops (Male)",
   "item-creature-ceratopsidae-regaliceratops-adult-female": "Regaliceratops (Female)",
@@ -342,6 +507,21 @@
   "game:prefixandcreature-ceratopsidaeregaliceratopsnestempty": "an empty regaliceratops nest",
   "game:prefixandcreature-ceratopsidaeregaliceratopsegg": "a regaliceratops egg",
 
+  "item-egg-regaliceratops": "Regaliceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-regaliceratops": "Cracked Regaliceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-regaliceratops": "Regaliceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-regaliceratops": "Regaliceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-regaliceratops-insturmentalcase": "Regaliceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-regaliceratops": "Regaliceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-regaliceratops": "Regaliceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-regaliceratops": "Liquid regaliceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-regaliceratops": "liquid Regaliceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-regaliceratops-insturmentalcase": "liquid Regaliceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-regaliceratops": "Liquid Regaliceratops egg",
+  "game:incontainer-item-eggyolkfullportion-regaliceratops": "Liquid Regaliceratops egg",
+
   "item-creature-ceratopsidae-leptoceratops-adult-male": "Leptoceratops (Male)",
   "item-creature-ceratopsidae-leptoceratops-adult-female": "Leptoceratops (Female)",
   "item-creature-ceratopsidae-leptoceratops-baby-male": "Leptoceratops (Juvenile Male)",
@@ -367,6 +547,21 @@
   "game:prefixandcreature-ceratopsidaeleptoceratopsnestmature": "a leptoceratops nest",
   "game:prefixandcreature-ceratopsidaeleptoceratopsnestempty": "an empty leptoceratops nest",
   "game:prefixandcreature-ceratopsidaeleptoceratopsegg": "a leptoceratops egg",
+
+  "item-egg-leptoceratops": "Leptoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-leptoceratops": "Cracked Leptoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-leptoceratops": "Leptoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-leptoceratops": "Leptoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-leptoceratops-insturmentalcase": "Leptoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-leptoceratops": "Leptoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-leptoceratops": "Leptoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-leptoceratops": "Liquid leptoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-leptoceratops": "liquid Leptoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-leptoceratops-insturmentalcase": "liquid Leptoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-leptoceratops": "Liquid Leptoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-leptoceratops": "Liquid Leptoceratops egg",
 
   "item-creature-ceratopsidae-protoceratops-adult-male": "Protoceratops (Male)",
   "item-creature-ceratopsidae-protoceratops-adult-female": "Protoceratops (Female)",
@@ -394,6 +589,21 @@
   "game:prefixandcreature-ceratopsidaeprotoceratopsnestempty": "an empty protoceratops nest",
   "game:prefixandcreature-ceratopsidaeprotoceratopsegg": "a protoceratops egg",
 
+  "item-egg-protoceratops": "Protoceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-protoceratops": "Cracked Protoceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-protoceratops": "Protoceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-protoceratops": "Protoceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-protoceratops-insturmentalcase": "Protoceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-protoceratops": "Protoceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-protoceratops": "Protoceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-protoceratops": "Liquid protoceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-protoceratops": "liquid Protoceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-protoceratops-insturmentalcase": "liquid Protoceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-protoceratops": "Liquid Protoceratops egg",
+  "game:incontainer-item-eggyolkfullportion-protoceratops": "Liquid Protoceratops egg",
+
   "item-creature-ceratopsidae-ajkaceratops-adult-male": "Ajkaceratops (Male)",
   "item-creature-ceratopsidae-ajkaceratops-adult-female": "Ajkaceratops (Female)",
   "item-creature-ceratopsidae-ajkaceratops-baby-male": "Ajkaceratops (Juvenile Male)",
@@ -419,6 +629,26 @@
   "game:prefixandcreature-ceratopsidaeajkaceratopsnestmature": "a ajkaceratops nest",
   "game:prefixandcreature-ceratopsidaeajkaceratopsnestempty": "an empty ajkaceratops nest",
   "game:prefixandcreature-ceratopsidaeajkaceratopsegg": "a ajkaceratops egg",
+
+  "item-egg-ajkaceratops": "Ajkaceratops Egg (a culinary artillery)",
+  "aculinaryartillery:item-eggyolk-ajkaceratops": "Cracked Ajkaceratops Egg",
+
+  "aculinaryartillery:item-eggyolkportion-ajkaceratops": "Ajkaceratops egg yolk portion",
+  "game:recipeingredient-item-eggyolkportion-ajkaceratops": "Ajkaceratops egg yolk",
+  "aculinaryartillery:recipeingredient-item-eggyolkportion-ajkaceratops-insturmentalcase": "Ajkaceratops egg yolk",
+  "aculinaryartillery:incontainer-item-eggyolkportion-ajkaceratops": "Ajkaceratops egg yolk",
+  "game:incontainer-item-eggyolkportion-ajkaceratops": "Ajkaceratops egg yolk",
+
+  "aculinaryartillery:item-eggyolkfullportion-ajkaceratops": "Liquid ajkaceratops egg portion",
+  "game:recipeingredient-item-eggyolkfullportion-ajkaceratops": "liquid Ajkaceratops egg",
+  "aculinaryartillery:recipeingredient-item-eggyolkfullportion-ajkaceratops-insturmentalcase": "liquid Ajkaceratops egg",
+  "aculinaryartillery:incontainer-item-eggyolkfullportion-ajkaceratops": "Liquid Ajkaceratops egg",
+  "game:incontainer-item-eggyolkfullportion-ajkaceratops": "Liquid Ajkaceratops egg",
+
+
+
+
+
 
 
 

@@ -358,7 +358,19 @@
 			{"code": "harvestable","quantitySlots": 8},
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
-			{"code": "antlergrowth", "enabledByType": {"*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false,"*": true }},
+			{"code": "antlergrowth", "enabledByType": {
+				"*-baby-*": false,
+				"*-triceratops-*":true,
+				"*-torosaurus-*":true,
+				"*-pentaceratops-*":true,
+				"*-xenoceratops-*":true,
+				"*-machairoceratops-*":true,
+				"*-nedoceratops-*":true,
+				"*-regaliceratops-*":true,
+				"*-nasutoceratops-*":true,
+				"*": false
+				}
+			},
 			{"code": "ropetieable","minGeneration": 4},
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
@@ -386,7 +398,7 @@
 		]
     },
     "server": {
-		"attributes": {"pathfinder": {"minTurnAnglePerSec": 15,"maxTurnAnglePerSec": 45}},
+		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
 			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
@@ -812,22 +824,25 @@
 					},
                     {
 						"code": "stayclosetoentity",
-						"animation": "Gallop",
+						"animation": "Trot",
 						"enabledByType": {
 							"*": true
 						},
 						"priority": 1.81,
 						"entityCodeByType": {
 							"*-adult-*": "ceratopsidae-{type}-baby-{gender}",
-							"*-baby-*": "ceratopsidae-{type}-adult-female"},
+							"*-baby-*": "ceratopsidae-{type}-adult-{gender}"},
 						"movespeedByType": {
-							"*-leptoceratops-*":0.038,
-							"*-protoceratops-*":0.038,
-							"*-ajkaceratops-*":0.038,
-							"*-adult-*": 0.056,
-							"*-baby-*": 0.038,
+							"*-leptoceratops-*":0.019,
+							"*-protoceratops-*":0.019,
+							"*-ajkaceratops-*":0.019,
+							"*-adult-*": 0.040,
+							"*-baby-*": 0.019,
 						},
-						"maxDistanceByType": {"*-adult-*": 24,"*-baby-*": 6},
+						"animationSpeedByType": {
+							"*-baby-*": 5,
+							"*": 4.5
+						},
 						"searchRange": 45,
 						"animationSpeedByType": {
 							"*-adult-*": 5,
@@ -957,12 +972,15 @@
 						"priority": 1.0,
 						"priorityForCancel": 1.35,
 						"movespeedByType": {
+							"*-leptoceratops-*":0.003,
+							"*-protoceratops-*":0.003,
+							"*-ajkaceratops-*":0.003,
 							"*-adult-*": 0.0045,
 							"*-baby-*": 0.003,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 1,
-							"*": 0.7
+							"*": 1
 						},
 						"preferredLightLevel": 14,
 						"soundByType": {"*":"game:creature/animal-eat*"},
@@ -974,12 +992,15 @@
 						"priority": 1.0,
 						"priorityForCancel": 1.35,
 						"chance": 0.0005,
-						"movespeedByType": {
-							"*-adult-*": 0.01,
-							"*-baby-*": 0.001,
-						},
 						"duringDayTimeFramesByType": {
 							"*-adult-*":[{"fromHour": 18,"toHour": 19},{"fromHour": 6,"toHour": 7}]},
+						"movespeedByType": {
+							"*-leptoceratops-*":0.003,
+							"*-protoceratops-*":0.003,
+							"*-ajkaceratops-*":0.003,
+							"*-adult-*": 0.0045,
+							"*-baby-*": 0.003,
+						},
 						"animationSpeedByType": {
 							"*-baby-*": 1,
 							"*": 1
@@ -1035,7 +1056,18 @@
             },
 			{
 				"code": "antlergrowth",
-				"enabledByType": {"*-baby-*": false,"*": true },
+				"enabledByType": {
+				"*-baby-*": false,
+				"*-triceratops-*":true,
+				"*-torosaurus-*":true,
+				"*-pentaceratops-*":true,
+				"*-xenoceratops-*":true,
+				"*-machairoceratops-*":true,
+				"*-nedoceratops-*":true,
+				"*-regaliceratops-*":true,
+				"*-nasutoceratops-*":true,
+				"*": false
+				},
 				"variantsByType": {
 					"*-adult-*":["01",],
 					},
@@ -1050,12 +1082,12 @@
 		"worldgen":{
 			"chanceByType": {"*-baby-*": 0.0},
 			"maxQuantityByGroup": { "code": "triceratops-*", "maxQuantity": 1 },
-			"triesPerChunk": { "avg": 0.0009, "var": 0},
+			"triesPerChunk": { "avg": 0.001, "var": 0},
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
-				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
+				"*-adult-male":{ "dist": "uniform","avg": 4,"var": 2},
+				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
 				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
@@ -1076,8 +1108,8 @@
 			"spawnCapPlayerScaling": 0.0,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
-				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
+				"*-adult-male":{ "dist": "uniform","avg": 4,"var": 2},
+				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
 				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
@@ -1091,39 +1123,39 @@
 						"climate": {
 							"minTemp": 15,
 							"maxTemp": 28,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-torosaurus-adult-*": {
 						"climate": {
 							"minTemp": 15,
 							"maxTemp": 28,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-pentaceratops-adult-*": {
 						"climate": {
 							"minTemp": 12,
 							"maxTemp": 27,
-							"minRain": 0.4,
-							"maxRain": 0.8,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.1,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.9,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.3
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.6
 						},
 					},
 			"*-pachyrhinosaurus-adult-*": {
@@ -1132,9 +1164,9 @@
 							"maxTemp": 10,
 							"minRain": 0.1,
 							"maxRain": 1.0,
-							"minForestOrShrubs": 0.2,
+							"minForestOrShrubs": 0.1,
 							"maxForest": 1.0,
-							"maxShrubs": 0.5,
+							"maxShrubs": 1,
 							"minY": 1.0,
 							"maxY": 1.7
 						},
@@ -1143,143 +1175,143 @@
 						"climate": {
 							"minTemp": 8,
 							"maxTemp": 22,
-							"minRain": 0.5,
-							"maxRain": 0.85,
-							"minForestOrShrubs": 0.6,
+							"minRain": 0.1,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.3,
 							"maxForest": 1.0,
-							"maxShrubs": 0.4,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-centrosaurus-adult-*": {
 						"climate": {
 							"minTemp": 10,
 							"maxTemp": 24,
-							"minRain": 0.6,
-							"maxRain": 0.95,
-							"minForestOrShrubs": 0.7,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.3,
 							"maxForest": 1.0,
-							"maxShrubs": 0.5,
-							"minY": 1.0,
-							"maxY": 1.1
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.4
 						},
 					},
 			"*-xenoceratops-adult-*": {
 						"climate": {
 							"minTemp": 15,
 							"maxTemp": 28,
-							"minRain": 0.5,
-							"maxRain": 0.8,
-							"minForestOrShrubs": 0.4,
+							"minRain": 0.1,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.1,
 							"maxForest": 0.7,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-machairoceratops-adult-*": {
 						"climate": {
 							"minTemp": 18,
 							"maxTemp": 30,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-nedoceratops-adult-*": {
 						"climate": {
 							"minTemp": 15,
 							"maxTemp": 28,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-sinoceratops-adult-*": {
 						"climate": {
 							"minTemp": 20,
 							"maxTemp": 30,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.4
 						},
 					},
 			"*-regaliceratops-adult-*": {
 						"climate": {
 							"minTemp": 15,
 							"maxTemp": 28,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-nasutoceratops-adult-*": {
 						"climate": {
 							"minTemp": 20,
 							"maxTemp": 32,
-							"minRain": 0.3,
-							"maxRain": 0.7,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.0,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.7,
-							"minY": 1.0,
-							"maxY": 1.1
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.4
 						},
 					},
 			"*-leptoceratops-adult-*": {
 						"climate": {
 							"minTemp": 10,
 							"maxTemp": 25,
-							"minRain": 0.6,
-							"maxRain": 0.9,
-							"minForestOrShrubs": 0.5,
+							"minRain": 0.2,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.8,
-							"maxShrubs": 0.6,
-							"minY": 1.0,
-							"maxY": 1.2
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-protoceratops-adult-*": {
 						"climate": {
 							"minTemp": 20,
 							"maxTemp": 35,
-							"minRain": 0.1,
-							"maxRain": 0.4,
-							"minForestOrShrubs": 0.2,
+							"minRain": 0.0,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.0,
 							"maxForest": 0.3,
-							"maxShrubs": 0.5,
-							"minY": 0.8,
-							"maxY": 1.0
+							"maxShrubs": 1,
+							"minY": 0.9,
+							"maxY": 1.5
 						},
 					},
 			"*-ajkaceratops-adult-*": {
 						"climate": {
 							"minTemp": 20,
 							"maxTemp": 32,
-							"minRain": 0.5,
-							"maxRain": 0.8,
-							"minForestOrShrubs": 0.4,
+							"minRain": 0.3,
+							"maxRain": 1,
+							"minForestOrShrubs": 0.2,
 							"maxForest": 0.7,
-							"maxShrubs": 0.6,
+							"maxShrubs": 1,
 							"minY": 0.9,
-							"maxY": 1.1
+							"maxY": 1.4
 						},
 					},
 			"*": {

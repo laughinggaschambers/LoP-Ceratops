@@ -346,7 +346,7 @@
 			"*-nasutoceratops-adult-male": 0.5,"*-nasutoceratops-adult-female": 0.4,"*-nasutoceratops-baby-*": 0.5,
 			"*-leptoceratops-adult-male": 0.29,"*-leptoceratops-adult-female": 0.2,"*-leptoceratops-baby-*": 0.29,
 			"*-protoceratops-adult-male": 0.2,"*-protoceratops-adult-female": 0.1,"*-protoceratops-baby-*": 0.2,
-			"*-ajkaceratops-adult-male": 0.11,"*-ajkaceratops-adult-female": 0.0,"*-ajkaceratops-baby-*": 0.11,
+			"*-ajkaceratops-adult-male": 0.11,"*-ajkaceratops-adult-female": 0.1,"*-ajkaceratops-baby-*": 0.11,
 
 		},
         "behaviors": [
@@ -424,9 +424,9 @@
 						"*-sinoceratops-adult-male": 120.0,"*-sinoceratops-adult-female": 110.0,"*-sinoceratops-baby-*": 8.0,
 						"*-regaliceratops-adult-male": 120.0,"*-regaliceratops-adult-female": 110.0,"*-regaliceratops-baby-*": 8.0,
 						"*-nasutoceratops-adult-male": 100.0,"*-nasutoceratops-adult-female": 90.0,"*-nasutoceratops-baby-*": 6.0,
-						"*-leptoceratops-adult-male": 28.0,"*-leptoceratops-adult-female": 26.0,"*-leptoceratops-baby-*": 5.0,
-						"*-protoceratops-adult-male": 20.0,"*-protoceratops-adult-female": 18.0,"*-protoceratops-baby-*": 4.0,
-						"*-ajkaceratops-adult-male": 16.0,"*-ajkaceratops-adult-female": 14.0,"*-ajkaceratops-baby-*": 3.0,
+						"*-leptoceratops-adult-male": 28.0,"*-leptoceratops-adult-female": 26.0,"*-leptoceratops-baby-*": 3.0,
+						"*-protoceratops-adult-male": 20.0,"*-protoceratops-adult-female": 18.0,"*-protoceratops-baby-*": 2.0,
+						"*-ajkaceratops-adult-male": 16.0,"*-ajkaceratops-adult-female": 14.0,"*-ajkaceratops-baby-*": 1.0,
                     }
 			},
             {"code": "deaddecay",

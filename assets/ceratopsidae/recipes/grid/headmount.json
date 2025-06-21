@@ -1,0 +1,444 @@
+[
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-triceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-triceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-triceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-triceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-triceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-torosaurus-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-torosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-torosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-torosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-torosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-pentaceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-pentaceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-pentaceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-pentaceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-pentaceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-pachyrhinosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-pachyrhinosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-pachyrhinosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-pachyrhinosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-styracosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-styracosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-styracosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-styracosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-centrosaurus-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-centrosaurus-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-centrosaurus-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-centrosaurus-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-xenoceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-xenoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-xenoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-xenoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-xenoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-machairoceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-machairoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-machairoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-machairoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-machairoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-nedoceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-nedoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-nedoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-nedoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-nedoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-sinoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-sinoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-sinoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-sinoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-regaliceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-regaliceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-regaliceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-regaliceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-regaliceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "ABC,DEF,GHI",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:antler-nasutoceratops-*"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-nasutoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-nasutoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-nasutoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-nasutoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-leptoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-leptoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-leptoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-leptoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-protoceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-protoceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-protoceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-protoceratops-baby", "quantity": 1}
+    },
+
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-ajkaceratops-adult"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-ajkaceratops-adult", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "_BC,DEF,GHI",
+        "ingredients": {
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true},
+            "C": {"type": "item", "code": "game:hammer-*", "isTool": true},
+            "D": {"type": "item", "code": "ceratopsidae:pelt-ajkaceratops-baby"},
+            "E": {"type": "item", "code": "game:metalnailsandstrips-*"},
+            "F": {"type": "item", "code": "game:clay-*"},
+            "G": {"type": "block", "code": "game:debarkedlog-*"},
+            "H": {"type": "block", "code": "game:glass-*"},
+            "I": {"type": "item", "code": "game:powder-borax"}
+        }, "width": 3, "height": 3,
+        "output": {"type": "item", "code": "ceratopsidae:headmount-ajkaceratops-baby", "quantity": 1}
+    },
+]

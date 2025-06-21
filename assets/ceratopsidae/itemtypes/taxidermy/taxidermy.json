@@ -1,0 +1,172 @@
+{
+  "code": "taxidermy",
+	"maxstacksize": 4,
+		"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter"}}
+	],
+  "variantgroups": [
+    {"code": "species","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus","torosaurus","xenoceratops","machairoceratops","nedoceratops","sinoceratops","regaliceratops","leptoceratops","protoceratops","ajkaceratops",]},
+    {"code": "type","states": [ "baby","adult" ]},
+  ],
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "taxidermy-*" ]
+    },
+		"displaycaseable": false, 
+		"shelvable": false,
+		"groundStorageTransformByType": {
+			"*-triceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 1.0
+			},
+
+    "*-torosaurus-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 1.0
+			},
+
+    "*-pentaceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.67
+			},
+
+    "*-pachyrhinosaurus-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.67
+			},
+
+    "*-styracosaurus-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.64
+			},
+
+    "*-centrosaurus-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.61
+			},
+
+    "*-xenoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.67
+			},
+
+    "*-machairoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.67
+			},
+
+    "*-nedoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.67
+			},
+
+    "*-sinoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.56
+			},
+
+    "*-regaliceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.56
+			},
+
+    "*-nasutoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.5
+			},
+
+    "*-leptoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.29
+			},
+
+    "*-protoceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.2
+			},
+
+    "*-ajkaceratops-*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 0.11
+			},
+			"*":{
+				"rotation": { "x": 0, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+				"scale": 1
+			}
+	}
+  },
+  "shapebytype": {
+    "*": {"base": "item/ceratopsidae/{species}/{type}"}
+  },
+  "creativeinventory": {"general": [ "*" ], "decorative": [ "*" ]
+  },
+  "texturesByType": {
+	"*":{"skin":{"base": "entity/{species}-adult"}},
+  },
+  "combustibleProps": {
+    "burnTemperature": 400,
+    "burnDuration": 10
+  },
+  "sounds": {
+    "place": "game:block/cloth",
+    "walk": "game:walk/cloth"
+  },
+  "guiTransformByType": {
+		"*-baby": {
+			"rotate": true,
+			"translation": { "x": -20, "y": -15, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.7
+		},
+		"*": {
+			"rotate": true,
+			"translation": { "x": -16, "y": 0, "z": -5 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
+		}			
+	},
+  "groundTransform": {
+    "translation": {"x": 0.5,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": 135,"z": 0},
+    "origin": {"x": 0.5,"y": -0.02,"z": 0.5},
+    "scale": 0.5
+  },
+  "tpHandTransformByType": {
+		"*-baby": {
+			"translation": { "x": -0.51, "y": -0.2, "z": -0.7 },
+			"rotation": { "x": 53, "y": -165, "z": 77 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.25
+		},
+		"*": {
+			"translation": { "x": -2.5, "y": -4.6, "z": -2.4 },
+			"rotation": { "x": 2, "y": -180, "z": 23 },
+			"scale": 0.15
+		},
+	},
+  "fpHandTransform": {
+		"translation": { "x": 0.4, "y": 0, "z": 0 },
+		"rotation": { "x": -8, "y": -63, "z": -7 },
+    "origin": {"x": 0.5,"y": 0.1,"z": 0.5},
+    "scale": 0.5
+  },
+  "materialDensity": 200
+}

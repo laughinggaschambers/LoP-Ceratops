@@ -1,0 +1,256 @@
+[
+{
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-triceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 12.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-triceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-torosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 12.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-torosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-pentaceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 8.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-pentaceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-pachyrhinosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 8.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-pachyrhinosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-styracosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 8.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-styracosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-centrosaurus-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 5.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-centrosaurus-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-xenoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 5.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-xenoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-machairoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 5.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-machairoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-nedoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 4.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-nedoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-sinoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 4.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-sinoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-regaliceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 3.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-regaliceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-nasutoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-huge", "quantity": 3.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-nasutoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-leptoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-medium", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-leptoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-protoceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-protoceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-ajkaceratops-adult",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 1.0  }
+    },
+    {
+        "ingredientPattern": "LK",
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "L": { "type": "item", "code": "ceratopsidae:pelt-ajkaceratops-baby",}
+            },"width": 2,"height": 1,
+            "output": { "type": "item", "code": "game:hide-raw-small", "quantity": 2  }
+    },
+]

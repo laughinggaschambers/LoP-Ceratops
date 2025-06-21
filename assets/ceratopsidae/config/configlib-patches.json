@@ -160,8 +160,8 @@
     },
     "boolean":{
       "ceratopsidae:entities/land/ceratopsidae.json": {
-        "/server/behaviors/0/enabledByType/*": "ridable",
-        "/client/behaviors/0/enabledByType/*": "ridable",
+        "/server/behaviors/3/enabledByType/*": "ridable",
+        "/client/behaviors/3/enabledByType/*": "ridable",
         }
     }
   },

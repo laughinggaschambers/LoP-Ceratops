@@ -350,6 +350,9 @@
 
 		},
         "behaviors": [
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeight": 1.1251},
@@ -371,10 +374,7 @@
 				"*": false
 				}
 			},
-			{"code": "ropetieable","minGeneration": 4},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
+			{"code": "ropetieable","minGeneration": 3},
 
         ],
         "animations": [
@@ -400,11 +400,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 10 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
-
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-leptoceratops-*":false,"*-protoceratops-*":false,"*-ajkaceratops-*":false, "*": true},"minGeneration": 10 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeight": 1.1251},
             {"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
@@ -462,44 +461,9 @@
 					},
 					{
 						"type": "item",
-						"code": "game:fat",
+						"code": "ceratopsidae:pelt-{type}-{age}",
 						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 50.0,"var": 2}, "*-triceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-torosaurus-adult-*": {"avg": 50.0,"var": 2}, "*-torosaurus-baby-*": {"avg": 1.0,"var": 0},
-							"*-pentaceratops-adult-*": {"avg": 35.0,"var": 2}, "*-pentaceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-pachyrhinosaurus-adult-*": {"avg": 35.0,"var": 2}, "*-pachyrhinosaurus-baby-*": {"avg": 1.0,"var": 0},
-							"*-styracosaurus-adult-*": {"avg": 34.0,"var": 2}, "*-styracosaurus-baby-*": {"avg": 1.0,"var": 0},
-							"*-centrosaurus-adult-*": {"avg": 32.0,"var": 2}, "*-centrosaurus-baby-*": {"avg": 1.0,"var": 0},
-							"*-xenoceratops-adult-*": {"avg": 35.0,"var": 2}, "*-xenoceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-machairoceratops-adult-*": {"avg": 35.0,"var": 2}, "*-machairoceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-nedoceratops-adult-*": {"avg": 35.0,"var": 2}, "*-nedoceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-sinoceratops-adult-*": {"avg": 30.0,"var": 2}, "*-sinoceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-regaliceratops-adult-*": {"avg": 30.0,"var": 2}, "*-regaliceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-nasutoceratops-adult-*": {"avg": 27.0,"var": 2}, "*-nasutoceratops-baby-*": {"avg": 1.0,"var": 0},
-							"*-leptoceratops-adult-*": {"avg": 4.0,"var": 2}, "*-leptoceratops-baby-*": {"avg": 0.0,"var": 0},
-							"*-protoceratops-adult-*": {"avg": 2.0,"var": 2}, "*-protoceratops-baby-*": {"avg": 0.0,"var": 0},
-							"*-ajkaceratops-adult-*": {"avg": 1.0,"var": 2}, "*-ajkaceratops-baby-*": {"avg": 0.0,"var": 0},
-						}
-					},
-					{
-						"type": "item",
-						"code": "game:hide-raw-huge",
-						"quantityByType": {
-							"*-triceratops-adult-*": {"avg": 7.0,"var": 0},
-							"*-torosaurus-adult-*": {"avg": 7.0,"var": 0},
-							"*-pentaceratops-adult-*": {"avg": 5.0,"var": 0},
-							"*-pachyrhinosaurus-adult-*": {"avg": 5.0,"var": 0},
-							"*-styracosaurus-adult-*": {"avg": 4.0,"var": 0},
-							"*-centrosaurus-adult-*": {"avg": 4.0,"var": 0},
-							"*-xenoceratops-adult-*": {"avg": 5.0,"var": 0},
-							"*-machairoceratops-adult-*": {"avg": 5.0,"var": 0},
-							"*-nedoceratops-adult-*": {"avg": 5.0,"var": 0},
-							"*-sinoceratops-adult-*": {"avg": 4.0,"var": 0},
-							"*-regaliceratops-adult-*": {"avg": 4.0,"var": 0},
-							"*-nasutoceratops-adult-*": {"avg": 4.0,"var": 0},
-							"*-leptoceratops-adult-*": {"avg": 2.0,"var": 0},
-							"*-protoceratops-adult-*": {"avg": 1.0,"var": 0},
-							"*-ajkaceratops-adult-*": {"avg": 1.0,"var": 0},
+							"*": {"avg": 1,"var": 0},
 						}
 					},
 					{
